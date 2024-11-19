@@ -1,4 +1,4 @@
-package dsalgo.test;
+package dsalgo.testcases;
 
 import java.util.List;
 
@@ -32,7 +32,7 @@ public class HomePageTest extends BaseClass {
 		
 		//driver = DriverFactory.getDriver();	
 		//HomePage_POM homepage = new HomePage_POM();
-		homepage = new HomePage(driver);
+		homepage = new HomePage();
     }
 	
 	@Test(priority=1)

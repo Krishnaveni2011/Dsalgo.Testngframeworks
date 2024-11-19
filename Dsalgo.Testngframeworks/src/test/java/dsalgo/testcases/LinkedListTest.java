@@ -1,4 +1,4 @@
-package dsalgo.test;
+package dsalgo.testcases;
 
 import java.io.IOException;
 

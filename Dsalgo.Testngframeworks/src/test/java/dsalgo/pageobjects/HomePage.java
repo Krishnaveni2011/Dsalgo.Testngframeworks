@@ -15,7 +15,7 @@ import dsalgo.driverfactory.DriverFactory;
 
 public class HomePage {
 
-	private WebDriver driver;
+	private WebDriver driver = DriverFactory.getDriver();
 
 	// 1.By locators
 	@FindBy(xpath = "//h1[text()='Preparing for the Interviews']")
@@ -84,8 +84,7 @@ public class HomePage {
 	WebElement newAccountMsg;
 
 	// @constructor
-	public HomePage(WebDriver driver) {
-		this.driver = driver;
+	public HomePage() {
 		PageFactory.initElements(driver, this);
 
 	}
