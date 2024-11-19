@@ -9,7 +9,7 @@ import dsalgo.driverfactory.DriverFactory;
 import dsalgo.utilities.ConfigReader;
 import dsalgo.utilities.Loggerload;
 
-public class Tree_POM {
+public class TreePage {
 
 	WebDriver driver = DriverFactory.getDriver();
 
@@ -48,7 +48,7 @@ public class Tree_POM {
 	@FindBy(linkText = "Implementation Of BST")
 	WebElement implOfBSTLink;
 
-	public Tree_POM() {
+	public TreePage() {
 		PageFactory.initElements(driver, this);
 	}
 
