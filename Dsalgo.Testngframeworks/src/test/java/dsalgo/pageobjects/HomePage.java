@@ -13,9 +13,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import dsalgo.driverfactory.DriverFactory;
 
-public class HomePage_POM {
+public class HomePage {
 
-	private WebDriver driver = DriverFactory.getDriver();
+	private WebDriver driver;
 
 	// 1.By locators
 	@FindBy(xpath = "//h1[text()='Preparing for the Interviews']")
@@ -84,8 +84,8 @@ public class HomePage_POM {
 	WebElement newAccountMsg;
 
 	// @constructor
-	public HomePage_POM() {
-		// driver = browserDriver;
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
 		PageFactory.initElements(driver, this);
 
 	}

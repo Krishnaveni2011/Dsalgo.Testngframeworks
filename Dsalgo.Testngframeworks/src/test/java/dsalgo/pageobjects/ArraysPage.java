@@ -17,17 +17,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import dsalgo.utilities.Utils;
 
-public class Arrays_POM {
+public class ArraysPage {
 	
 	private WebDriver driver;
 	Utils utils = new Utils();
 	
 	// Locators
+	@FindBy (xpath = "//input[@id = 'id_username']") WebElement Username;
+	@FindBy (xpath = "//input[@id = 'id_password']") WebElement Password;
+	@FindBy (xpath = "//input[@value = 'Login']") WebElement Login;
+	
 	@FindBy (xpath = "//a[@href='array']") WebElement getstarted_array;
 	@FindBy (xpath = "//a[@href ='arrays-in-python']") WebElement arrays_in_python;
-	@FindBy (xpath ="//a[@href ='arrays-using-list']") WebElement arrays_using_list;
-	@FindBy (xpath ="//a[@href ='basic-operations-in-lists']") WebElement basic_operations_in_lists;
-	@FindBy (xpath ="//a[@href ='applications-of-array']") WebElement applications_of_array;
+	@FindBy (xpath ="//a[@href ='/array/arrays-using-list/']") WebElement arrays_using_list;
+	@FindBy (xpath ="//a[@href ='/array/basic-operations-in-lists/']") WebElement basic_operations_in_lists;
+	@FindBy (xpath ="//a[@href ='/array/applications-of-array/']") WebElement applications_of_array;
 	@FindBy (xpath ="//a[@href='/tryEditor']") WebElement try_here;
 	@FindBy (xpath = "//div[@class = 'CodeMirror-scroll']") WebElement CodeEditor;
 	@FindBy (id = "output")WebElement Codeoutput;
@@ -44,9 +48,17 @@ public class Arrays_POM {
 	@FindBy (id = "output") WebElement QtnOutPut;
 	
 
-	public Arrays_POM(WebDriver browserDriver) {
+	public ArraysPage(WebDriver browserDriver) {
 		driver = browserDriver;
 		PageFactory.initElements(driver,this);
+	}
+	public void login(String username, String pwd) {
+		Username.sendKeys(username);
+		Password.sendKeys(pwd);
+		
+	}
+	public void click_Login() {
+	     Login.click();
 	}
 	public void click_getstarted_array() {
 		getstarted_array.click();
