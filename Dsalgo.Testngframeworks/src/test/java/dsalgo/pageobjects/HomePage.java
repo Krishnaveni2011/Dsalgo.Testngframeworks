@@ -13,7 +13,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import dsalgo.driverfactory.DriverFactory;
 
-public class HomePage_POM {
+public class HomePage {
 
 	private WebDriver driver = DriverFactory.getDriver();
 
@@ -84,8 +84,7 @@ public class HomePage_POM {
 	WebElement newAccountMsg;
 
 	// @constructor
-	public HomePage_POM() {
-		// driver = browserDriver;
+	public HomePage() {
 		PageFactory.initElements(driver, this);
 
 	}

@@ -14,7 +14,7 @@ import dsalgo.driverfactory.DriverFactory;
 import dsalgo.utilities.ConfigReader;
 import io.cucumber.datatable.DataTable;
 
-public class Register_POM {
+public class RegisterPage {
 
 	WebDriver driver = DriverFactory.getDriver();
 
@@ -30,9 +30,14 @@ public class Register_POM {
 	@FindBy(xpath = "//div[@class='alert alert-primary']")
 	WebElement errorMsg;
 
-	public Register_POM() {
+	public RegisterPage() {
 
 		PageFactory.initElements(driver, this);
+	}
+	
+
+	public String getUserText() {
+		return userName.getAttribute("value");
 	}
 
 	public String getErrorMsg() {

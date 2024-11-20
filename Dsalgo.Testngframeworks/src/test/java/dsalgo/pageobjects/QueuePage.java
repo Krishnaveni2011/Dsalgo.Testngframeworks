@@ -16,7 +16,8 @@ import dsalgo.utilities.ConfigReader;
 import dsalgo.utilities.Loggerload;
 import dsalgo.utilities.Utils;
 
-public class Queue_POM {
+
+public class QueuePage {
 
 	WebDriver driver = DriverFactory.getDriver();
 	Utils utils = new Utils();
@@ -49,8 +50,28 @@ public class Queue_POM {
 	@FindBy(id = "output")
 	WebElement output;
 
-	public Queue_POM() {
+	public QueuePage() {
 		PageFactory.initElements(driver, this);
+	}
+	
+	public void alerHandling() {
+		driver.switchTo().alert().accept();
+	}
+	
+	public void navigateBackToQueuePage() {
+		driver.navigate().to(ConfigReader.getProperty("queueUrl"));
+	}
+	public void enterCodeInTryEditor(String pythonCode) {
+		textbox_editor.sendKeys(pythonCode);
+	}
+	
+	public String getActualResult() {
+
+		return output.getText();
+	}
+	
+	public void expectedResult() {
+		
 	}
 	
 	public boolean runBtnIsDisplayed() {
@@ -164,13 +185,10 @@ public class Queue_POM {
 	}
 	
 	
-	public String getActualResult() {
-
-		return output.getText();
-	}
+	
+	
 
 
 	
-
 
 }
