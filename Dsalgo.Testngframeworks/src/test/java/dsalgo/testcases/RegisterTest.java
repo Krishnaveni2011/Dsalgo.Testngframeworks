@@ -14,11 +14,11 @@ import dsalgo.testbase.BaseClass;
 import dsalgo.utilities.ConfigReader;
 import dsalgo.utilities.ExcelReader;
 import dsalgo.utilities.Loggerload;
+import dsalgo.utilities.Utils;
 
 public class RegisterTest extends BaseClass {
 	HomePage homepage;
 	RegisterPage register;
-	QueuePage queuepage;
 
 	@BeforeMethod
 	public void setup() {
@@ -42,7 +42,7 @@ public class RegisterTest extends BaseClass {
 	public void registerWithUsername() {
 
 		homepage.click_register();
-		register.enterUserName("numpy_rock");
+		register.enterUserName(ConfigReader.getProperty("username"));
 		register.clickOnRegisterButton();
 
 		Loggerload.info("User enter username and other fields empty");
@@ -55,8 +55,8 @@ public class RegisterTest extends BaseClass {
 	@Test(priority = 3)
 	public void registerWithUserAndPwd() {
 		homepage.click_register();
-		register.enterUserName("numpy_rock");
-		register.enterPwd("testpass123");
+		register.enterUserName(ConfigReader.getProperty("username"));
+		register.enterPwd(ConfigReader.getProperty("password"));
 		register.clickOnRegisterButton();
 
 		Loggerload.info("User enter username, password & Pwd confirmation empty");
@@ -72,8 +72,8 @@ public class RegisterTest extends BaseClass {
 		register.enterUserName(randomAlphaNumeric());
 		String user = register.getUserText();
 		System.out.println(user);
-		register.enterPwd("testpass@123");
-		register.enterPwdConfirm("testpass@123");
+		register.enterPwd(ConfigReader.getProperty("password"));
+		register.enterPwdConfirm(ConfigReader.getProperty("password"));
 		register.clickOnRegisterButton();
 
 		Loggerload.info("User registers with valid details");
@@ -84,10 +84,9 @@ public class RegisterTest extends BaseClass {
 
 	}
 
-	@Test(priority = 5, dataProvider = "LoginData")
+	@Test(priority = 5, dataProvider = "LoginData", dataProviderClass = DataProviderClass.class)
 	public void loginWithValidDetails(String username,String pwd) {
 		homepage.click_signin();
-		
 		homepage.enterUsername(username);
 		homepage.enterLoginPwd(pwd);
 		homepage.clickOnLoginBtn();
@@ -98,16 +97,8 @@ public class RegisterTest extends BaseClass {
 
 	}
 	
-	@DataProvider(name="LoginData")
-	public Object[][] logindata(){
-		Object[][] data=ExcelReader.getTestDataFromExcel("logindata");
-		return data ;
-	}
 
-	
-	
-
-	@Test(priority = 6, dataProvider = "InvalidData")
+	@Test(priority = 6, dataProvider = "RegisterInvalidData", dataProviderClass = DataProviderClass.class)
 	public void registerWithInvalidDetails(String username, String pwd, String pwdConfirm, String errorMsg) {
 		
 		homepage.click_register();
@@ -120,16 +111,4 @@ public class RegisterTest extends BaseClass {
 
 	}
 	
-	
-	
-	@DataProvider(name="InvalidData")
-	public Object[][] getData(){
-		Object[][] data=ExcelReader.getTestDataFromExcel("registerpage");
-				
-				return data;
-	}
-	
-
-
-
 }
