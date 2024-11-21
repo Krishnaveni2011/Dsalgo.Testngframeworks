@@ -18,6 +18,7 @@ public class QueueTest extends BaseClass {
 	HomePage homepage;
 	RegisterPage register;
 	QueuePage queuepage;
+	String title;
 
 	@BeforeMethod
 	public void setup() {
@@ -37,24 +38,29 @@ public class QueueTest extends BaseClass {
 
 	public void validCodeTryEditor(String code[]) {
 
-		String pythonCode = code[0];
-		String output = code[1];
-		queuepage.navigateToTryEditor();
+		String pythonCode = (String) code[0];
+		String output = (String) code[1];
 		queuepage.enterCodeInTryEditor(pythonCode);
 		queuepage.clickOnRunButton();
 
 		String actualMsg = queuepage.getActualResult();
 		assertEquals(actualMsg, output, "Result mis matched");
+		
 	}
 
-	public void inValidCodeTryEditor(String code) {
-		
-		queuepage.navigateToTryEditor();
-		queuepage.enterCodeInTryEditor(code);
+	public void inValidCodeTryEditor(String code[]) {
+
+		queuepage.enterCodeInTryEditor(code[0]);
 		queuepage.clickOnRunButton();
 		queuepage.alerHandling();
 	}
 
+	public void clickTryHereButton() {
+
+		queuepage.clickOnTryHereButton();
+		assertTrue(queuepage.runBtnIsDisplayed());
+
+	}
 
 	// Queue Page
 	@Test(priority = 1)
@@ -62,147 +68,121 @@ public class QueueTest extends BaseClass {
 
 		queuepage.navigateToHomePage();
 		queuepage.dropdown_queue();
-		String title = queuepage.getQueuePageTitle();
+		title = queuepage.getQueuePageTitle();
 		assertEquals("Queue", title, "Title mis match");
 	}
 
 	// Implementation of Queue in Python
-	@Test(priority = 2)
-	public void navToImplQueueInPython() {
+	@Test(priority = 2, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	public void validImplQueueInPython(String code[]) {
 		queuepage.navigateToQueuePage();
 		queuepage.clickOnImpQueuePythonLink();
-		String title = queuepage.getQueuePageTitle();
+		title = queuepage.getQueuePageTitle();
 		assertEquals(title, "Implementation of Queue in Python", "Title mis match");
+
+		clickTryHereButton();
+		validCodeTryEditor(code);
+		
+
 	}
 
-	@Test(priority = 3)
-	public void tryEditorFromImplQueueInPython() {
+
+	@Test(priority = 3, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	public void invalidImplQueueInPython(String code[]) {
 		queuepage.navigateToQueuePage();
 		queuepage.clickOnImpQueuePythonLink();
-		queuepage.clickOnTryHereButton();
-		assertTrue(queuepage.runBtnIsDisplayed());
+		title = queuepage.getQueuePageTitle();
+		assertEquals(title, "Implementation of Queue in Python", "Title mis match");
 
-	}
-
-	@Test(priority = 4, dataProvider = "ValidCode", dataProviderClass = DataProviderClass.class)
-	public void validCodeForImplQueueInPython(String code[]) {
-
-		validCodeTryEditor(code);
-
-	}
-
-
-	@Test(priority = 5, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
-	public void inValidCodeForImplQueueInPython(String code) {
-
+		clickTryHereButton();
 		inValidCodeTryEditor(code);
 
 	}
 
-
 	// Implementation using collections.deque
-	@Test(priority = 6)
-	public void navToImplUsingCollectionsDequePage() {
+	@Test(priority = 4, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	public void validImplUsingCollectionsDequePage(String code[]) {
 		queuepage.navigateBackToQueuePage();
 		queuepage.clickOnImpUsingCollectionDequeLink();
-		String title = queuepage.getQueuePageTitle();
+		title = queuepage.getQueuePageTitle();
 		assertEquals(title, "Implementation using collections.deque", "Title mis match");
-	}
 
-	@Test(priority = 7)
-	public void tryEditorFromImplUsingCollectionsDequePage() {
-
-		queuepage.navigateToImpUsingCollecDequeLink();
-		queuepage.clickOnTryHereButton();
-		assertTrue(queuepage.runBtnIsDisplayed());
-
-	}
-
-	@Test(priority = 8, dataProvider = "ValidCode", dataProviderClass = DataProviderClass.class)
-	public void validCodeForImplUsingCollectionsDequePage(String code[]) {
+		clickTryHereButton();
 		validCodeTryEditor(code);
-
 	}
 
-	@Test(priority = 9, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
-	public void inValidCodeForImplUsingCollectionsDequePage(String code) {
+	@Test(priority = 5, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	public void inValidImplUsingCollectionsDequePage(String code[]) {
+		queuepage.navigateBackToQueuePage();
+		queuepage.clickOnImpUsingCollectionDequeLink();
+		title = queuepage.getQueuePageTitle();
+		assertEquals(title, "Implementation using collections.deque", "Title mis match");
 
+		clickTryHereButton();
 		inValidCodeTryEditor(code);
 	}
 
 	// Implementation using Array
-	@Test(priority = 10)
-	public void navToImplUsingArrayPage() {
 
+	@Test(priority = 6, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	public void validImplUsingArrayPage(String code[]) {
 		queuepage.navigateToQueuePage();
 		queuepage.clickOnImpUsingArray();
-		String title = queuepage.getQueuePageTitle();
+		title = queuepage.getQueuePageTitle();
 		assertEquals(title, "Implementation using array", "Title mis match");
 
-	}
-
-	@Test(priority = 11)
-	public void tryEditorFromImplUsingArrayPage() {
-
-		queuepage.navigateToImpUsingArrayLink();
-		queuepage.clickOnTryHereButton();
-		assertTrue(queuepage.runBtnIsDisplayed());
-
-	}
-
-	@Test(priority = 12, dataProvider = "ValidCode", dataProviderClass = DataProviderClass.class)
-	public void validCodeForImplUsingArrayPage(String code[]) {
-
+		clickTryHereButton();
 		validCodeTryEditor(code);
 
 	}
 
-	@Test(priority = 13, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
-	public void inValidCodeForImplUsingArrayPage(String code) {
+	@Test(priority = 7, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	public void inValidImplUsingArrayPage(String code[]) {
+		queuepage.navigateBackToQueuePage();
+		queuepage.clickOnImpUsingArray();
+		title = queuepage.getQueuePageTitle();
+		assertEquals(title, "Implementation using array", "Title mis match");
 
+		clickTryHereButton();
 		inValidCodeTryEditor(code);
 
 	}
 
 	// Queue Operations
-	@Test(priority = 14)
-	public void navToQueueOperationPage() {
+
+	@Test(priority = 8, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	public void validQueueOperationPage(String code[]) {
 
 		queuepage.navigateToQueuePage();
 		queuepage.clickOnQueueOperationsLink();
-		String title = queuepage.getQueuePageTitle();
+		title = queuepage.getQueuePageTitle();
 		assertEquals(title, "Queue Operations", "Title mis match");
 
-	}
-
-	@Test(priority = 15)
-	public void tryEditorFromQueueOperationPage() {
-		queuepage.navigateToQueueOperationsLink();
-		queuepage.clickOnTryHereButton();
-		assertTrue(queuepage.runBtnIsDisplayed());
-
-	}
-
-	@Test(priority = 16, dataProvider = "ValidCode", dataProviderClass = DataProviderClass.class)
-	public void validCodeForQueueOperationPage(String code[]) {
+		clickTryHereButton();
 		validCodeTryEditor(code);
 
 	}
 
-	@Test(priority = 17, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
-	public void inValidCodeForQueueOperationPage(String code) {
+	@Test(priority = 9, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	public void inValidQueueOperationPage(String code[]) {
 
+		queuepage.navigateBackToQueuePage();
+		queuepage.clickOnQueueOperationsLink();
+		title = queuepage.getQueuePageTitle();
+		assertEquals(title, "Queue Operations", "Title mis match");
+
+		clickTryHereButton();
 		inValidCodeTryEditor(code);
 
 	}
 
 	// Practice Questions
-	@Test(priority = 18)
+	@Test(priority = 10)
 	public void clickOnPracticeQLink() {
 
 		queuepage.navigateToQueueOperationsLink();
 		queuepage.clickOnPracticeQuestionLink();
-		String title = queuepage.getQueuePageTitle();
+		title = queuepage.getQueuePageTitle();
 		assertEquals(title, "Practice Questions", "Title mis match");
 
 	}
