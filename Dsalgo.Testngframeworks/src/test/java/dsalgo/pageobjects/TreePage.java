@@ -11,6 +11,7 @@ import dsalgo.utilities.Loggerload;
 
 public class TreePage {
 
+
 	WebDriver driver = DriverFactory.getDriver();
 
 	// Home page
@@ -19,6 +20,11 @@ public class TreePage {
 	@FindBy(xpath = "//a[text()='Tree']")
 	WebElement treeDropDown;
 	// (or) a[normalize-space()='Tree']
+	
+	@FindBy(xpath = "//a[contains(text(),'Try here')]")
+	WebElement try_here_button;
+	@FindBy(xpath = "//button[contains(text(),'Run')]")
+	WebElement run_button;
 
 	// Tree Page
 	@FindBy(linkText = "Overview of Trees")
@@ -47,6 +53,8 @@ public class TreePage {
 	WebElement binarySearchTreesLink;
 	@FindBy(linkText = "Implementation Of BST")
 	WebElement implOfBSTLink;
+	@FindBy(xpath = "//a[contains(text(),'Practice')]")
+	WebElement practice_questions_link;
 
 	public TreePage() {
 		PageFactory.initElements(driver, this);
@@ -59,6 +67,14 @@ public class TreePage {
 		return title;
 	}
 	
+	public void clickOnTryHereButton() {
+		Loggerload.info("User clicks on Try Here button");
+		try_here_button.click();
+	}
+	public boolean runBtnIsDisplayed() {
+		return run_button.isDisplayed();
+	}
+
 	public void navigateToHomePage() {
 		driver.get(ConfigReader.getProperty("appHomeURL"));
 		Loggerload.info("The user is navigated to Home Page : "+ConfigReader.getProperty("appHomeURL"));
@@ -72,6 +88,11 @@ public class TreePage {
 	}
 
 	public void navigateToTreePage() {
+		 driver.get(ConfigReader.getProperty("treeUrl"));
+		Loggerload.info("The is navigated to  Tree Page " );
+	}
+	
+	public void navigateBackToTreePage() {
 		 driver.get(ConfigReader.getProperty("treeUrl"));
 		Loggerload.info("The is navigated to  Tree Page " );
 	}
@@ -206,5 +227,9 @@ public class TreePage {
 		Loggerload.info("The user clicks on Implementation of BST Link");
 		implOfBSTLink.click();
 	}
+	public void clickOnPracticeQuestionLink() {
+		Loggerload.info("User clicks on Practice Questions Link");
+		practice_questions_link.click();
 
+	}
 }
