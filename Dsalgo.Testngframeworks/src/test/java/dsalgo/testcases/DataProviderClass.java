@@ -1,7 +1,7 @@
 package dsalgo.testcases;
 
 import java.io.IOException;
-
+import java.lang.reflect.Method;
 
 import org.testng.annotations.DataProvider;
 
@@ -41,6 +41,40 @@ public class DataProviderClass {
 		
 		Object[] data = Utils.getTestDataFromExcel("invalidcode");
 		return data;
+	}
+	
+
+	@DataProvider(name = "TryEditorCode")
+	public static Object[][] code(Method m) {
+
+		Object[][] data = Utils.getTestDataFromExcel("tryeditorcode");
+
+		Object[][] validCode = {{ data[0][0], data[0][1] } };
+
+		Object[][] inValidCode = {{ data[1][0] } };
+
+		System.out.println("Method Name: " + m.getName());
+
+		switch (m.getName()) {
+
+		case "validImplQueueInPython":
+		case "validImplUsingCollectionsDequePage":
+		case "validImplUsingArrayPage":
+		case "validQueueOperationPage":
+
+			return validCode;
+
+		case "invalidImplQueueInPython":
+		case "inValidImplUsingCollectionsDequePage":
+		case "inValidImplUsingArrayPage":
+		case "inValidQueueOperationPage":
+
+			return inValidCode;
+		
+		default:
+			return null;
+		}
+
 	}
 	
 	ExcelReader excelReader = new ExcelReader(ConfigReader.getExcelFilePath());
