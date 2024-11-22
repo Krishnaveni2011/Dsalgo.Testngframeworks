@@ -33,12 +33,12 @@ public class LinkedlistPage {
 	
 	//Topics covered
 	@FindBy (xpath = "//a[@href='introduction']") WebElement Introduction;
-	@FindBy (xpath = "//a[@href='/linked-list/creating-linked-list/']") WebElement Creating_Linkedlist;
-	@FindBy (xpath = "//a[@href='/linked-list/types-of-linked-list/']") WebElement Types_of_linkedlist;
-	@FindBy (xpath = "//a[@href='/linked-list/implement-linked-list-in-python/']") WebElement Implement_LL_python;
-	@FindBy (xpath = "//a[@href = '/linked-list/traversal/']") WebElement Traversal;
-	@FindBy (xpath = "//a[@href = '/linked-list/insertion-in-linked-list/']") WebElement Insertion;
-	@FindBy (xpath = "//a[@href = '/linked-list/deletion-in-linked-list/']") WebElement Deletion;
+	@FindBy (xpath = "//a[@href='creating-linked-list']") WebElement Creating_Linkedlist;
+	@FindBy (xpath = "//a[@href='types-of-linked-list']") WebElement Types_of_linkedlist;
+	@FindBy (xpath = "//a[@href='implement-linked-list-in-python']") WebElement Implement_LL_python;
+	@FindBy (xpath = "//a[@href = 'traversal']") WebElement Traversal;
+	@FindBy (xpath = "//a[@href = 'insertion-in-linked-list']") WebElement Insertion;
+	@FindBy (xpath = "//a[@href = 'deletion-in-linked-list']") WebElement Deletion;
 	
 	@FindBy (xpath = "//a[@href = '/tryEditor']") WebElement Try_here;
 	@FindBy (xpath = "//button[text() = 'Run']") WebElement Run;
@@ -116,12 +116,11 @@ public class LinkedlistPage {
 	public void enterPythonCode(String sheetname, int rownumber) throws InvalidFormatException, IOException  {
 		Utils utils = new Utils();
 		String code = utils.getCodefromExcel(sheetname, rownumber);
-		this.enterCode(code, editor_area);
+		this.enterCode(code);
 	}
 
-	public void enterCode(String code, WebElement element) {
-
-		new Actions(driver).sendKeys(element, code).perform();
+	public void enterCode(String code) {
+		new Actions(driver).sendKeys(editor_area, code).perform();
 	}
 	
 

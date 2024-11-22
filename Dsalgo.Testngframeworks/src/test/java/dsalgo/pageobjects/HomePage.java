@@ -176,7 +176,7 @@ public class HomePage {
 		case "Data Structure-Introduction":
 			getstarted_datastructures.click();
 			break;
-		case "Array":
+		case "Arrays":
 			getstarted_array.click();
 			break;
 		case "Linked List":

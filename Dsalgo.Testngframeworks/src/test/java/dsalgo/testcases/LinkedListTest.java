@@ -3,8 +3,8 @@ package dsalgo.testcases;
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -23,15 +23,23 @@ public class LinkedListTest extends BaseClass {
 	HomePage homepage;
 	LinkedlistPage linkedList;
 	
-	@BeforeMethod
-	void setup() throws Throwable {
-//		String browser = "chrome";// ConfigReader.getBrowserType();
-//		DriverFactory.initializeBrowser(browser);
-		//driver = DriverFactory.getDriver();
+	@BeforeClass
+	void userSignin() {
 		linkedList = new LinkedlistPage(driver);
 		driver.get(reader.getProperty("loginurl"));
 		linkedList.login("Rockstars_Numpy", "Numpy@Rock123");
 		linkedList.click_Login();
+	}
+	
+	
+	@BeforeMethod
+	void setup() throws Throwable {
+		driver.get(reader.getProperty("appHomeURL"));
+		//linkedList.click_getstarted_linkedlist();
+//		linkedList = new LinkedlistPage(driver);
+//		driver.get(reader.getProperty("loginurl"));
+//		linkedList.login("Rockstars_Numpy", "Numpy@Rock123");
+//		linkedList.click_Login();
 	}
 	
 	@Test(priority = 1)
@@ -39,103 +47,48 @@ public class LinkedListTest extends BaseClass {
 		
 		linkedList.click_getstarted_linkedlist();
 		Assert.assertTrue(driver.getTitle().contains("Linked List"));
-		//driver.get(reader.getProperty("appHomeURL"));
 	}
 	
-	@Test(priority = 2)
-	void testLinkedListPage() {
+	@Test(dataProvider = "linkedListOptions", dataProviderClass = DataProviderClass.class, priority = 2)
+	void testLinkedListPage(String options, String Urls) {
 		driver.get(reader.getProperty("Linkedlist_URL"));
-		String expectedTopicOptions []= {"Introduction", "Creating Linked LIst", "Types of Linked List", "Implement Linked List in Python", "Traversal","Insertion", "Deletion"};
-		String expectedTopicUrls [] = {
-			reader.getProperty("Introduction_URL"),
-			reader.getProperty("Creating_LL_URL"), 
-			reader.getProperty("Types_of_LL_URL"), 
-			reader.getProperty("Implement_LL_in_Python"), 
-			reader.getProperty("Traversal_URL"), 
-			reader.getProperty("Insertion_URL"), 
-			reader.getProperty("Deletion_URL")
-		};
-		for(int i = 0; i < expectedTopicOptions.length; i++ ) {
-			linkedList.click_linkedListOptions(expectedTopicOptions[i]);
-			Assert.assertTrue(driver.getCurrentUrl().contains(expectedTopicUrls[i]));
-		}
+		linkedList.click_linkedListOptions(options);
+		Assert.assertTrue(driver.getCurrentUrl().contains(Urls));
+
 	}
-	@Test(priority = 3)
-	void testTryHereInLinkedList() {
-		String expectedTopicUrls [] = {
-			reader.getProperty("Introduction_URL"),
-			reader.getProperty("Creating_LL_URL"), 
-			reader.getProperty("Types_of_LL_URL"), 
-			reader.getProperty("Implement_LL_in_Python"), 
-			reader.getProperty("Traversal_URL"), 
-			reader.getProperty("Insertion_URL"), 
-			reader.getProperty("Deletion_URL")
-		};
-		for(int i = 0; i < expectedTopicUrls.length; i++ ) {
-			driver.get(expectedTopicUrls[i]);
-			linkedList.click_Try_here();
-			Assert.assertEquals(driver.getCurrentUrl(), reader.getProperty("tryEditorUrl"));
-			
-		}
+	@Test(dataProvider = "linkedListOptions", dataProviderClass = DataProviderClass.class, priority = 3)
+	void testTryHereInLinkedList(String options,String Urls) {
+		driver.get(Urls);
+		linkedList.click_Try_here();
+		Assert.assertEquals(driver.getCurrentUrl(), reader.getProperty("tryEditorUrl"));
 		
 	}
-	@Test(priority = 4)
-	void testTryEditorRunEmpty() {
-		String expectedTopicUrls [] = {
-			reader.getProperty("Introduction_URL"),
-			reader.getProperty("Creating_LL_URL"), 
-			reader.getProperty("Types_of_LL_URL"), 
-			reader.getProperty("Implement_LL_in_Python"), 
-			reader.getProperty("Traversal_URL"), 
-			reader.getProperty("Insertion_URL"), 
-			reader.getProperty("Deletion_URL")
-		};
-		for(int i = 0; i < expectedTopicUrls.length; i++ ) {
-			driver.get(expectedTopicUrls[i]);
-			linkedList.click_Try_here();
-			linkedList.click_run();
-			Assert.assertEquals(linkedList.getScriptOutput(), "");
-			}
+	@Test(dataProvider = "linkedListOptions", dataProviderClass = DataProviderClass.class, priority = 4)
+	void testTryEditorRunEmpty(String options,String Urls) {
+		driver.get(Urls);
+		linkedList.click_Try_here();
+		linkedList.click_run();
+		Assert.assertEquals(linkedList.getScriptOutput(), "");
+		
 	}
-	
-	@Test(priority = 5)
-	void testTryEditorWithValidCode() throws InvalidFormatException, IOException {
-		String expectedTopicUrls [] = {
-				reader.getProperty("Introduction_URL"),
-				reader.getProperty("Creating_LL_URL"), 
-				reader.getProperty("Types_of_LL_URL"), 
-				reader.getProperty("Implement_LL_in_Python"), 
-				reader.getProperty("Traversal_URL"), 
-				reader.getProperty("Insertion_URL"), 
-				reader.getProperty("Deletion_URL")
-			};
-			for(int i = 0; i < expectedTopicUrls.length; i++ ) {
-				driver.get(expectedTopicUrls[i]);
-				linkedList.click_Try_here();
-		        linkedList.enterPythonCode("Sheet1", 0);
-		        linkedList.click_run();
-		        Assert.assertEquals(linkedList.getOutput("Sheet1", 0),linkedList.getScriptOutput());
-	        }
+
+	@Test(dataProvider = "excel-reader", dataProviderClass = DataProviderClass.class, priority = 5)
+	void testTryEditorWithValidCode(String inputCode, String output, String url) {
+		driver.get(url);
+		linkedList.click_Try_here();
+		linkedList.enterCode(inputCode);
+        linkedList.click_run();
+        Assert.assertEquals(output, linkedList.getScriptOutput());
 	}
-	@Test(priority = 6)
-	void testTryEditorWithInValidCode() throws InvalidFormatException, IOException {
-		String expectedTopicUrls [] = {
-				reader.getProperty("Introduction_URL"),
-				reader.getProperty("Creating_LL_URL"), 
-				reader.getProperty("Types_of_LL_URL"), 
-				reader.getProperty("Implement_LL_in_Python"), 
-				reader.getProperty("Traversal_URL"), 
-				reader.getProperty("Insertion_URL"), 
-				reader.getProperty("Deletion_URL")
-			};
-			for(int i = 0; i < expectedTopicUrls.length; i++ ) {
-				driver.get(expectedTopicUrls[i]);
-				linkedList.click_Try_here();
-		        linkedList.enterPythonCode("Sheet1", 1);
-		        linkedList.click_run();
-		        driver.switchTo().alert().accept();
-		        Assert.assertEquals(linkedList.getOutput("Sheet1", 1),linkedList.getScriptOutput());
-	        }
+	@Test(dataProvider = "excel-reader", dataProviderClass = DataProviderClass.class, priority = 6)
+	void testTryEditorWithInvalidCode(String inputCode, String output, String url) throws InvalidFormatException, IOException {
+		driver.get(url);
+		linkedList.click_Try_here();
+        linkedList.enterCode(inputCode);
+        linkedList.click_run();
+        driver.switchTo().alert().accept();
+        Assert.assertEquals(output,linkedList.getScriptOutput());
+
 	}
 	@Test(priority = 7)
 	void testPracticeQuestionsInLL() {
@@ -144,11 +97,6 @@ public class LinkedListTest extends BaseClass {
 		Assert.assertEquals(driver.getCurrentUrl(), reader.getProperty("PracticeQtns_URL"));
 		
 	}
-//	
-//	@AfterClass
-//	void tearDown() {
-//		driver.quit();
-//	}
-	
+
 
 }
