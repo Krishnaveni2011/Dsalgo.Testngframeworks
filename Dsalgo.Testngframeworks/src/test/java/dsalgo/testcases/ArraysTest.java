@@ -3,8 +3,9 @@ package dsalgo.testcases;
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.junit.Assert;
+
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -25,15 +26,17 @@ public class ArraysTest extends BaseClass {
 	LinkedlistPage linkedList;
 	ArraysPage array;
 	
-	@BeforeMethod
-	void setup() throws Throwable {
-		//String browser = "chrome";
-		//DriverFactory.initializeBrowser(browser);
-		//driver = DriverFactory.getDriver();
+	@BeforeClass
+	void userSignin() {
 		array = new ArraysPage(driver);
 		driver.get(reader.getProperty("loginurl"));
 		array.login("Rockstars_Numpy", "Numpy@Rock123");
 		array.click_Login();
+	}
+	@BeforeMethod
+	void setup() throws Throwable {
+		
+		driver.get(reader.getProperty("appHomeURL"));
 	}
 
 	@Test(priority = 1)
@@ -42,86 +45,45 @@ public class ArraysTest extends BaseClass {
 		Assert.assertTrue(driver.getTitle().contains("Array"));
 	}
 
-	@Test(priority = 2)
-	void testArrayPage() {
+	@Test(dataProvider = "arrayOptions", dataProviderClass = DataProviderClass.class, priority = 2)
+	void testArrayPage(String options, String Urls) {
 		driver.get(reader.getProperty("Arrays_URL"));
-		String expectedArrayOptions [] = {"Arrays in Python", "Arrays Using List", "Basic Operations in Lists", "Applications of Array"};
-		String expectedArrayUrls [] = {
-			reader.getProperty("ArrayInPython_URL"), 
-			reader.getProperty("ArraysUsingList_URL"), 
-			reader.getProperty("BasicOperatnsInLists_URL"), 
-			reader.getProperty("ApplicationsOfArray_URL")
-		};
-		for(int i = 0; i < expectedArrayOptions.length; i++ ) {
-			array.click_arrayOptions(expectedArrayOptions[i]);
-			Assert.assertTrue(driver.getCurrentUrl().contains(expectedArrayUrls[i]));
-		}
+		array.click_arrayOptions(options);
+    	Assert.assertTrue(driver.getCurrentUrl().contains(Urls));
 	}
 
-	@Test(priority = 3)
-	void testTryHereInArrays() {
-		String expectedArrayUrls [] = {
-			reader.getProperty("ArrayInPython_URL"), 
-			reader.getProperty("ArraysUsingList_URL"), 
-			reader.getProperty("BasicOperatnsInLists_URL"), 
-			reader.getProperty("ApplicationsOfArray_URL")
-		};
-		for(int i = 0; i < expectedArrayUrls.length; i++ ) {
-			driver.get(expectedArrayUrls[i]);
-			array.click_try_here();
-			Assert.assertEquals(driver.getCurrentUrl(),reader.getProperty("tryEditorUrl"));
-		}
+	@Test(dataProvider = "arrayOptions", dataProviderClass = DataProviderClass.class, priority = 3)
+	void testTryHereInArrays(String options, String Urls) {
+		driver.get(Urls);
+		array.click_try_here();
+		Assert.assertEquals(driver.getCurrentUrl(),reader.getProperty("tryEditorUrl"));
 	}
 
-	@Test(priority = 4)
-	void testTryEditorRunEmpty() {
-		String expectedArrayUrls [] = {
-			reader.getProperty("ArrayInPython_URL"), 
-			reader.getProperty("ArraysUsingList_URL"), 
-			reader.getProperty("BasicOperatnsInLists_URL"), 
-			reader.getProperty("ApplicationsOfArray_URL")
-		};
-		for(int i = 0; i < expectedArrayUrls.length; i++ ) {
-			driver.get(expectedArrayUrls[i]);
-			array.click_try_here();
-			array.click_Run();
-			Assert.assertEquals(array.getEditorOutput(),"");
-		}
+	@Test(dataProvider = "arrayOptions", dataProviderClass = DataProviderClass.class, priority = 4)
+	void testTryEditorRunEmpty(String options, String Urls) {
+		driver.get(Urls);
+		array.click_try_here();
+		array.click_Run();
+		Assert.assertEquals(array.getEditorOutput(),"");
 	}
 
-	@Test(priority = 5)
-	void testTryEditorWithValidCode() throws InvalidFormatException, IOException {
-		String expectedArrayUrls [] = {
-			reader.getProperty("ArrayInPython_URL"), 
-			reader.getProperty("ArraysUsingList_URL"), 
-			reader.getProperty("BasicOperatnsInLists_URL"), 
-			reader.getProperty("ApplicationsOfArray_URL")
-		};
-		for(int i = 0; i < expectedArrayUrls.length; i++ ) {
-			driver.get(expectedArrayUrls[i]);
-			array.click_try_here();
-			array.enterPythonCode("Sheet1", 0);
-			array.click_Run();
-			Assert.assertEquals(array.getCodeoutput("Sheet1", 0), array.getEditorOutput());
-		}
+	@Test(dataProvider = "arrayexcel-reader", dataProviderClass = DataProviderClass.class, priority = 5)
+	void testTryEditorWithValidCode(String inputCode, String output, String Urls) throws InvalidFormatException, IOException {
+		driver.get(Urls);
+		array.click_try_here();
+		array.enterCode(inputCode);
+		array.click_Run();
+		Assert.assertEquals(output, array.getEditorOutput());
 	}
 
-	@Test(priority = 6)
-	void testTryEditorWithInvalidCode() throws InvalidFormatException, IOException {
-		String expectedArrayUrls [] = {
-			reader.getProperty("ArrayInPython_URL"),
-			reader.getProperty("ArraysUsingList_URL"),
-			reader.getProperty("BasicOperatnsInLists_URL"),
-			reader.getProperty("ApplicationsOfArray_URL")
-		};
-		for(int i = 0; i < expectedArrayUrls.length; i++ ) {
-			driver.get(expectedArrayUrls[i]);
-			array.click_try_here();
-			array.enterPythonCode("Sheet1", 1);
-			array.click_Run();
-			driver.switchTo().alert().accept();
-			Assert.assertEquals(array.getCodeoutput("Sheet1", 1), array.getEditorOutput());
-		}
+	@Test(dataProvider = "arrayexcel-reader", dataProviderClass = DataProviderClass.class, priority = 6)
+	void testTryEditorWithInvalidCode(String inputCode, String output, String Urls) throws InvalidFormatException, IOException {
+		driver.get(Urls);
+		array.click_try_here();
+		array.enterCode(inputCode);
+		array.click_Run();
+		driver.switchTo().alert().accept();
+		Assert.assertEquals(output, array.getEditorOutput());
 	}
 
 	@Test(priority = 7)
@@ -251,8 +213,4 @@ public class ArraysTest extends BaseClass {
 			Assert.assertEquals(array.getQtnOutPut("Sheet1", 1), "");	
 	}
 	
-//	@AfterClass
-//	void tearDown() {
-//		driver.quit();
-//	}
 }

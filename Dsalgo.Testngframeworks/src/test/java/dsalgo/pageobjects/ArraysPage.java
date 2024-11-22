@@ -29,9 +29,9 @@ public class ArraysPage {
 	
 	@FindBy (xpath = "//a[@href='array']") WebElement getstarted_array;
 	@FindBy (xpath = "//a[@href ='arrays-in-python']") WebElement arrays_in_python;
-	@FindBy (xpath ="//a[@href ='/array/arrays-using-list/']") WebElement arrays_using_list;
-	@FindBy (xpath ="//a[@href ='/array/basic-operations-in-lists/']") WebElement basic_operations_in_lists;
-	@FindBy (xpath ="//a[@href ='/array/applications-of-array/']") WebElement applications_of_array;
+	@FindBy (xpath ="//a[@href ='arrays-using-list']") WebElement arrays_using_list;
+	@FindBy (xpath ="//a[@href ='basic-operations-in-lists']") WebElement basic_operations_in_lists;
+	@FindBy (xpath ="//a[@href ='applications-of-array']") WebElement applications_of_array;
 	@FindBy (xpath ="//a[@href='/tryEditor']") WebElement try_here;
 	@FindBy (xpath = "//div[@class = 'CodeMirror-scroll']") WebElement CodeEditor;
 	@FindBy (id = "output")WebElement Codeoutput;
@@ -134,10 +134,10 @@ public class ArraysPage {
 	public void enterPythonCode(String sheetname, int rownumber) throws InvalidFormatException, IOException  {
 		Utils utils = new Utils();
 		String code = utils.getCodefromExcel(sheetname, rownumber);
-		this.enterCode(code, CodeEditor);
+		this.enterCode(code);
 	}
-	public void enterCode(String code, WebElement element) {
-         new Actions(driver).sendKeys(element, code).perform();
+	public void enterCode(String code) {
+         new Actions(driver).sendKeys(CodeEditor, code).perform();
 	}
 	
 	public String getCodeoutput(String sheetname, int rownumber) throws InvalidFormatException, IOException  {
