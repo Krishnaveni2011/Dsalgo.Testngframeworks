@@ -1,6 +1,8 @@
 package dsalgo.pageobjects;
 
 import org.openqa.selenium.By;
+
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -15,6 +17,7 @@ import dsalgo.utilities.Utils;
 import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Alert;
+
 
 public class Stack_POM {
 	
@@ -41,8 +44,9 @@ public class Stack_POM {
 	WebElement application_stack;	
 	@FindBy (xpath="//*[@id=\"content\"]/a") WebElement Question_Stack;
     @FindBy(xpath="//textarea[@tabindex='0']") WebElement Stack_pythoninput;
+    @FindBy(id = "answer_form") WebElement answerForm;
 	
-    public Stack_POM() {
+    public Stack_POM() { 
 
 		PageFactory.initElements(driver, this);
 	}
@@ -68,7 +72,7 @@ public class Stack_POM {
 	
 	public void navigatetooperationStack() {
 		driver.get(ConfigReader.getProperty("OperationsinStackpage"));
-	}
+	} 
 	
 	public void navigatetoTryeditor() {
 		driver.get(ConfigReader.getProperty("tryeditorurl"));
@@ -82,20 +86,17 @@ public class Stack_POM {
 	public void navigatetorefresh() {
 		driver.navigate().refresh();
 	}
-
-	public void enterStackPythoncode (String sheetname, int rownumber) 
-		throws InvalidFormatException, IOException {
-		driver.navigate().refresh();
-		String code = eleUtil.getCodefromExcel(sheetname, rownumber);
-		eleUtil.enterCode(code,Stack_pythoninput );
+	
+	public void setvalidcode(String code) {
+		answerForm.click();
+		Stack_pythoninput.sendKeys(code);
 	}
 
-	public String getExpectedResult(String sheetname, Integer rownumber) 
-		throws InvalidFormatException, IOException {        
-		String expectedResult = eleUtil.getOutputFromExcel(sheetname, rownumber);
-		return expectedResult;
+	public void setinvalidcode(String code) {
+		answerForm.click();
+		Stack_pythoninput.sendKeys(code);
 	}
-
+	
 	public String getActualResult() {
 	
 		return output.getText();
@@ -121,7 +122,7 @@ public class Stack_POM {
 	}
 			
 	public void Run_stack() {
-		runbutton.click();
+		runbutton.click(); 
 	}
 
 	public void Implementation_Stack() 

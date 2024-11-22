@@ -63,7 +63,6 @@ public class Utils {
 	
 
 	public static Object[][] getTestDataFromExcel(String sheetName)  {
-		//File excelFile=new File(System.getProperty("src/test/resources/TestData/invalid data.xlsx"));
 		FileInputStream fisExcel = null;
 		try {
 			fisExcel = new FileInputStream(ConfigReader.getProperty("excelFilePath"));
@@ -89,6 +88,7 @@ public class Utils {
 			for(int j=0;j<cols;j++) {
 				
 			 XSSFCell cell = row.getCell(j);
+			 if ( cell == null ) continue;
 			 CellType cellType = cell.getCellType();
 			 switch(cellType) {
 			 case STRING:
