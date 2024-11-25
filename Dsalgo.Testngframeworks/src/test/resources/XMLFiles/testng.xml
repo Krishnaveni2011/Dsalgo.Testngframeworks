@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
     <class name="dsalgo.testcases.TreeTest"/>
-      
+    <class name="dsalgo.testcases.DataStructureTest"/>  
      
         <!--   <class name="dsalgo.testcases.RegisterTest"/>-->
       <class name="dsalgo.testcases.QueueTest"/>

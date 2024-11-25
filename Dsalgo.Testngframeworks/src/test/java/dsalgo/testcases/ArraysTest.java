@@ -3,15 +3,10 @@ package dsalgo.testcases;
 import java.io.IOException;
 
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import dsalgo.driverfactory.DriverFactory;
 import dsalgo.pageobjects.ArraysPage;
 import dsalgo.pageobjects.HomePage;
 import dsalgo.pageobjects.LinkedlistPage;
@@ -92,29 +87,17 @@ public class ArraysTest extends BaseClass {
 		 array.click_Practise_Qtns();
 	}
 
-	@Test(priority = 8)
-	void testPracticeQtnsOptions() {
-		String expectedPracticeQtnsOptions [] = {
-			"Search the array",
-			"Max Consecutive Ones",
-			"Find Numbers with Even Number of Digits",
-			"Squares of  a Sorted Array"
-		};
-		String expectedPracticeQtnsUrls [] = {
-			reader.getProperty("SearchTheArray_URL"),
-			reader.getProperty("MaxConsecutiveOnes_URL"),
-			reader.getProperty("findNumbers_URL"),
-			reader.getProperty("sortedSquares_URL")
-		};
-		for(int i = 0; i < expectedPracticeQtnsOptions.length; i++ ) {
-			driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
-			array.click_PractiseQtnsOptions(expectedPracticeQtnsOptions[i]);
-			Assert.assertTrue(driver.getCurrentUrl().contains(expectedPracticeQtnsUrls[i]));
-		}				
+	@Test(dataProvider = "arrayPracticeQtnsOptions", dataProviderClass = DataProviderClass.class, priority = 8)
+	void testPracticeQtnsOptions(String options, String Urls) {
+		driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
+		array.click_PractiseQtnsOptions(options);
+		Assert.assertTrue(driver.getCurrentUrl().contains(Urls));
+
 	}
 	
 	@Test(priority = 9)
 	void testQtns1WithValidCodeAndRun() throws InvalidFormatException, IOException, InterruptedException {
+			driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("SearchTheArray_URL"));
 			array.enterPythonCodePractice("Sheet1", 2);
 			array.click_Run();
@@ -123,6 +106,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 10)
 	void testQtns1WithValidCodeAndSubmit() throws InvalidFormatException, IOException, InterruptedException {
+			driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("SearchTheArray_URL"));
 			array.enterPythonCodePractice("Sheet1", 3);
 			array.click_Submit();
@@ -131,6 +115,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 11)
 	void testQtns1WithInvalidCode() throws InvalidFormatException, IOException, InterruptedException {
+		    driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("SearchTheArray_URL"));
 			array.enterPythonCodePractice("Sheet1", 1);
 			array.click_Run();
@@ -140,6 +125,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 12)
 	void testQtns2WithValidCodeAndRun() throws InvalidFormatException, IOException, InterruptedException {
+			driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("MaxConsecutiveOnes_URL"));
 			array.enterPythonCodePractice("Sheet1", 4);
 			array.click_Run();
@@ -148,6 +134,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 13)
 	void testQtns2WithValidCodeAndSubmit() throws InvalidFormatException, IOException, InterruptedException {
+			driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("MaxConsecutiveOnes_URL"));
 			array.enterPythonCodePractice("Sheet1", 5);
 			array.click_Submit();
@@ -156,6 +143,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 14)
 	void testQtns2WithInvalidCode() throws InvalidFormatException, IOException, InterruptedException {
+		    driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("MaxConsecutiveOnes_URL"));
 			array.enterPythonCodePractice("Sheet1", 1);
 			array.click_Run();
@@ -173,6 +161,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 16)
 	void testQtns3WithValidCodeAndSubmit() throws InvalidFormatException, IOException, InterruptedException {
+			driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("findNumbers_URL"));
 			array.enterPythonCodePractice("Sheet1", 7);
 			array.click_Submit();
@@ -181,6 +170,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 17)
 	void testQtns3WithInvalidCode() throws InvalidFormatException, IOException, InterruptedException {
+		    driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("findNumbers_URL"));
 			array.enterPythonCodePractice("Sheet1", 1);
 			array.click_Run();
@@ -190,6 +180,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 18)
 	void testQtns4WithValidCodeAndRun() throws InvalidFormatException, IOException, InterruptedException {
+		    driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("sortedSquares_URL"));
 			array.enterPythonCodePractice("Sheet1", 8);
 			array.click_Run();
@@ -198,6 +189,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 19)
 	void testQtns4WithValidCodeAndSubmit() throws InvalidFormatException, IOException, InterruptedException {
+		    driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 			driver.get(reader.getProperty("sortedSquares_URL"));
 			array.enterPythonCodePractice("Sheet1", 9);
 			array.click_Submit();
@@ -206,6 +198,7 @@ public class ArraysTest extends BaseClass {
 	
 	@Test(priority = 20)
 	void testQtns4WithInvalidCode() throws InvalidFormatException, IOException, InterruptedException {
+			driver.get(reader.getProperty("ArrayPracticeQtns_URL"));
 		    driver.get(reader.getProperty("sortedSquares_URL"));
 			array.enterPythonCodePractice("Sheet1", 1);
 			array.click_Run();
