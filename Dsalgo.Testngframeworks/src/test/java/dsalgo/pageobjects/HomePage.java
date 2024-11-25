@@ -73,6 +73,8 @@ public class HomePage {
 	WebElement RegisterBtn;
 	@FindBy(linkText = "Sign in")
 	WebElement Signin;
+	@FindBy (linkText = "Sign out") 
+	WebElement signOut;
 	@FindBy(id = "id_username")
 	WebElement loginUserName;
 	@FindBy(id = "id_password")
@@ -222,6 +224,10 @@ public class HomePage {
 
 	public void click_signin() {
 		Signin.click();
+	}
+	
+	public void clickSignOut() {
+		signOut.click();
 	}
 
 	public boolean isloginbuttonpresent() {

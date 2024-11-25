@@ -81,6 +81,8 @@ public class RegisterTest extends BaseClass {
 		String accCreationMsg = homepage.accountCreationMsg();
 		assertEquals(accCreationMsg, "New Account Created. You are logged in as " + user,
 				"Account creation msg is incorrect");
+		
+		homepage.clickSignOut();
 
 	}
 
@@ -94,6 +96,8 @@ public class RegisterTest extends BaseClass {
 		Loggerload.info("User logins with valid details");
 
 		assertEquals(register.getPageTitle(), "NumpyNinja", "Title mis match");
+		
+		homepage.clickSignOut();
 
 	}
 	
