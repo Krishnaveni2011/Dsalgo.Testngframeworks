@@ -12,6 +12,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 import dsalgo.driverfactory.DriverFactory;
 import dsalgo.utilities.ConfigReader;
@@ -23,13 +24,14 @@ public class BaseClass {
 	public Logger logger;
 
 	
-	@BeforeMethod
-	public void setUp() {
+	@BeforeClass
+	@Parameters({"browser"})
+	public void setUp(String browser) {
 
-		DriverFactory.initializeBrowser(ConfigReader.getProperty("browser"));
+		//DriverFactory.initializeBrowser(ConfigReader.getProperty("browser"));
 		
 		//String browser = ConfigReader.getBrowserType(); //for crossbrowser testing
-		//DriverFactory.initializeBrowser(browser);
+		DriverFactory.initializeBrowser(browser);
 		
 		driver = DriverFactory.getDriver();
 
@@ -40,7 +42,7 @@ public class BaseClass {
 
 	}
 
-	@AfterMethod
+	@AfterClass
 	public void tearDown() {
 		//driver.manage().deleteAllCookies();
 		driver.quit();

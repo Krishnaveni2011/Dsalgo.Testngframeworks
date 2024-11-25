@@ -92,6 +92,7 @@ public class Utils {
 			 CellType cellType = cell.getCellType();
 			 switch(cellType) {
 			 case STRING:
+			 case BLANK:
 			 data[i][j]=cell.getStringCellValue();
 			 break;
 			 case NUMERIC:
@@ -100,6 +101,7 @@ public class Utils {
 			 case BOOLEAN:
 				 data[i][j]=cell.getBooleanCellValue();
 				 break;
+				 
 			 }
 				
 			}
