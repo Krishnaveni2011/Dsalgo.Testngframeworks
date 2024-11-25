@@ -3,52 +3,62 @@ import org.openqa.selenium.WebDriver;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import dsalgo.utilities.ConfigReader;
 import dsalgo.pageobjects.HomePage;
-import dsalgo.pageobjects.Login_POM;
+import dsalgo.pageobjects.LoginPage;
+import dsalgo.testbase.BaseClass;
 import dsalgo.driverfactory.DriverFactory;
 import dsalgo.utilities.Loggerload;
 import dsalgo.utilities.ExcelReader;
 
 public class LoginTest {
-	public class Login {
-		WebDriver driver = DriverFactory.getDriver();
+	public class Login extends BaseClass {
+//		WebDriver driver = DriverFactory.getDriver();
 		ConfigReader reader = new ConfigReader();
 	    HomePage homepage;
 
-		Login_POM sign = new Login_POM();
+		LoginPage sign = new LoginPage();
 
-		@Parameters("browser")
-		@BeforeTest
-		public void OpenBrowser() throws Throwable {
+//		@Parameters("browser")
+//		@BeforeTest
+//		public void OpenBrowser() throws Throwable {
+//
+//			String browser = "chrome";
+//			DriverFactory.initializeBrowser(browser);
+//			driver = DriverFactory.getDriver();
+//
+//		}
+//
+//		@AfterTest
+//		public void Teardown() {
+//			driver.close();
+//
+//		}
 
-			String browser = "chrome";
-			DriverFactory.initializeBrowser(browser);
-			driver = DriverFactory.getDriver();
-
-		}
-
-		@AfterTest
-		public void Teardown() {
-			driver.close();
-
-		}
-
-		@Test()
+		@BeforeClass
 		public void Launchapp() {
 
 			driver.get(ConfigReader.getProperty("appURL"));
+			
 
 		}
-
+		
+		@BeforeMethod
+		public void signin () {
+			driver.get(ConfigReader.getProperty("appURL"));	
+			HomePage homepage = new HomePage();
+			homepage.clickOnGetStartedButton();
+		}
+		
 		@Test(priority = 1,dataProvider = "ValidLoginData", dataProviderClass = DataProviderClass.class)
 		public void verify_validLogin(String username, String password, String expectedMessage) {
 			HomePage homepage = new HomePage();
-			homepage.clickOnGetStartedButton();
-			Login_POM sign = new Login_POM();
+			LoginPage sign = new LoginPage();
 			sign.signInclick();
 
 			Loggerload.info("User Enter Login credential with username as \" " + username + "\" and password as\" "
@@ -65,7 +75,7 @@ public class LoginTest {
 		
 		@Test(priority = 2)
 		public void Signout() {
-			Login_POM sign = new Login_POM();
+			LoginPage sign = new LoginPage();
 	        sign.signOutlink();
 		} 
 			
@@ -76,7 +86,7 @@ public class LoginTest {
 			
 			HomePage homepage = new HomePage();
 			homepage.clickOnGetStartedButton();
-			Login_POM sign = new Login_POM();		
+			LoginPage sign = new LoginPage();		
 			sign.signInclick();
 
 			if (username != null || password != null) {

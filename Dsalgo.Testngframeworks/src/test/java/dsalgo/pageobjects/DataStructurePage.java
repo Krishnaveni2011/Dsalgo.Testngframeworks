@@ -11,13 +11,13 @@ import dsalgo.driverfactory.DriverFactory;
 
 import dsalgo.utilities.Utils;
 
-public class DataStructure_POM {
+public class DataStructurePage {
 
 	WebDriver driver = DriverFactory.getDriver();
 	Utils eleUtil = new Utils();
 	JavascriptExecutor jse = (JavascriptExecutor) driver;
 
-	@FindBy(xpath = "/html/body/div[3]/div[1]/div/div/a")
+	@FindBy(xpath = "/html/body/div[2]/div[1]/div/div/a")
 	WebElement dsIntrolink;
 	@FindBy(xpath = "/html/body/div[2]/ul/a")
 	WebElement dstimecomplexity;
@@ -42,7 +42,7 @@ public class DataStructure_POM {
 	@FindBy(xpath = "//*[@id=\"output\"]")
 	WebElement output;
 
-	public DataStructure_POM() {
+	public DataStructurePage() {
 
 		PageFactory.initElements(driver, this);
 	}

@@ -16,7 +16,7 @@ import dsalgo.utilities.Utils;
 import java.io.IOException;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 
-public class Graph_POM {
+public class GraphPage {
 
 	WebDriver driver = DriverFactory.getDriver();
 	Utils eleUtil = new Utils();
@@ -46,7 +46,7 @@ public class Graph_POM {
 	@FindBy(id = "answer_form")
 	WebElement answerForm;
 
-	public Graph_POM() {
+	public GraphPage() {
 		PageFactory.initElements(driver, this);
 	}
 

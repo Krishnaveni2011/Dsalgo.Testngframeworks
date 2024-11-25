@@ -197,8 +197,8 @@ public class DataProviderClass {
 	public String[][] getDataTryEditorNegative() throws IOException {
 		String[][] inValidCode = new String[1][2];
 		for (int i = 1; i < 2; i++) {			
-			inValidCode[i-1][0] = excelReader.getCellData("invalidcode", i, 0);
-			inValidCode[i-1][1] = excelReader.getCellData("invalidcode", i, 1);
+			inValidCode[i-1][0] = excelReader.getCellData("invalidcodeveni", i, 0);
+			inValidCode[i-1][1] = excelReader.getCellData("invalidcodeveni", i, 1);
 			System.out.println("The data is " + inValidCode[i-1][0] + ",");
 			System.out.println("The data is " + inValidCode[i-1][1] + ",");
 		}
