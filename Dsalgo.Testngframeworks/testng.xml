@@ -4,27 +4,29 @@
   <test name="Testchrome">
    <parameter name = "browser" value = "chrome" />
     <classes>
-      <class name="dsalgo.test.HomePageTest"/>
-      <class name="dsalgo.test.LinkedListTest"/>
-      <class name="dsalgo.test.ArraysTest"/>
+     
+     <class name="dsalgo.testcases.HomePageTest"/>
+      <class name="dsalgo.testcases.LinkedListTest"/>
+      <class name="dsalgo.testcases.ArraysTest"/>
     </classes>
   </test> <!-- Test -->
   
   <test name="Testfirefox">
    <parameter name = "browser" value = "firefox" />
     <classes>
-      <class name="dsalgo.test.HomePageTest"/>
-      <class name="dsalgo.test.LinkedListTest"/>
-      <class name="dsalgo.test.ArraysTest"/>
+    
+      <class name="dsalgo.testcases.HomePageTest"/>
+      <class name="dsalgo.testcases.LinkedListTest"/>
+      <class name="dsalgo.testcases.ArraysTest"/>
     </classes>
   </test> <!-- Test -->
   
   <test name="Testedge">
    <parameter name = "browser" value = "edge" />
     <classes>
-      <class name="dsalgo.test.HomePageTest"/>
-      <class name="dsalgo.test.LinkedListTest"/>
-      <class name="dsalgo.test.ArraysTest"/>
+      <class name="dsalgo.testcases.HomePageTest"/>
+      <class name="dsalgo.testcases.LinkedListTest"/>
+      <class name="dsalgo.testcases.ArraysTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

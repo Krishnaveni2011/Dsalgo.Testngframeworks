@@ -118,6 +118,17 @@ public class DataProviderClass {
 		};
 	}
 	
+	@DataProvider (name = "arrayPracticeQtnsOptions")
+	public Object[][] getArrayPracticeQtnOptions(){
+		
+		return new Object[][] {
+			{"Search the array", reader.getProperty("SearchTheArray_URL")},
+			{"Max Consecutive Ones", reader.getProperty("MaxConsecutiveOnes_URL")},
+			{"Find Numbers with Even Number of Digits", reader.getProperty("findNumbers_URL")},
+			{"Squares of  a Sorted Array", reader.getProperty("sortedSquares_URL")},
+		};
+	}
+	
 
 	@DataProvider(name = "TryEditorCode")
 	public static Object[][] code(Method m) {
