@@ -3,8 +3,10 @@ package dsalgo.testcases;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import dsalgo.pageobjects.HomePage;
@@ -12,7 +14,6 @@ import dsalgo.pageobjects.QueuePage;
 import dsalgo.pageobjects.RegisterPage;
 import dsalgo.testbase.BaseClass;
 import dsalgo.utilities.ConfigReader;
-import dsalgo.utilities.ExcelReader;
 
 public class QueueTest extends BaseClass {
 	HomePage homepage;
@@ -36,6 +37,13 @@ public class QueueTest extends BaseClass {
 		assertEquals(register.getPageTitle(), "NumpyNinja", "Title mis match");
 	}
 
+	@AfterMethod
+	public void tearDown() {
+		homepage.clickSignOut();
+		//driver.close();
+
+	}
+
 	public void validCodeTryEditor(String code[]) {
 
 		String pythonCode = (String) code[0];
@@ -45,7 +53,7 @@ public class QueueTest extends BaseClass {
 
 		String actualMsg = queuepage.getActualResult();
 		assertEquals(actualMsg, output, "Result mis matched");
-		
+
 	}
 
 	public void inValidCodeTryEditor(String code[]) {
@@ -82,10 +90,9 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		validCodeTryEditor(code);
-		
+		homepage.navigateToBackPage();
 
 	}
-
 
 	@Test(priority = 3, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
 	public void invalidImplQueueInPython(String code[]) {
@@ -96,6 +103,9 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		inValidCodeTryEditor(code);
+
+		// go back to home page
+		homepage.navigateToBackPage();
 
 	}
 
@@ -109,6 +119,8 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		validCodeTryEditor(code);
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 5, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
@@ -120,6 +132,8 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		inValidCodeTryEditor(code);
+		homepage.navigateToBackPage();
+
 	}
 
 	// Implementation using Array
@@ -133,6 +147,7 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		validCodeTryEditor(code);
+		homepage.navigateToBackPage();
 
 	}
 
@@ -145,6 +160,7 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		inValidCodeTryEditor(code);
+		homepage.navigateToBackPage();
 
 	}
 
@@ -160,6 +176,7 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		validCodeTryEditor(code);
+		homepage.navigateToBackPage();
 
 	}
 
@@ -173,6 +190,7 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		inValidCodeTryEditor(code);
+		homepage.navigateToBackPage();
 
 	}
 

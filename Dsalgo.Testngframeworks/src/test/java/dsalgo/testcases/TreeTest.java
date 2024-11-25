@@ -3,6 +3,7 @@ package dsalgo.testcases;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -37,6 +38,10 @@ public class TreeTest extends BaseClass {
 
 		assertEquals(register.getPageTitle(), "NumpyNinja", "Title mis match");
 
+	}
+	@AfterMethod
+	public void tearDown() {
+		homepage.clickSignOut();
 	}
 
 	public void validCodeTryEditor(String code[]) {
@@ -86,6 +91,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 
 	}
 
@@ -99,6 +107,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 
 	}
 
@@ -113,6 +124,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 
 	}
 
@@ -126,6 +140,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+
+		homepage.navigateToBackPage();
 
 	}
 
@@ -141,6 +157,8 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 7, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -153,6 +171,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+
+		homepage.navigateToBackPage();
 
 	}
 
@@ -168,6 +188,8 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 9, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -180,6 +202,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+
+		homepage.navigateToBackPage();
 
 	}
 
@@ -195,6 +219,8 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 11, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -207,6 +233,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+	
 	}
 
 	// Binary Trees
@@ -220,6 +249,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 13, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -232,6 +264,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 	}
 
 	// Types of Binary Trees
@@ -245,6 +280,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 15, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -257,6 +295,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 	}
 
 	// Implementation in Python
@@ -270,6 +311,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 17, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -282,6 +326,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 
 	}
 
@@ -296,6 +343,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 
 	}
 
@@ -309,6 +359,9 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
+
 
 	}
 
@@ -323,6 +376,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
 
 	}
 
@@ -336,6 +391,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
 
 	}
 
@@ -350,6 +407,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
 
 	}
 
@@ -363,6 +422,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+		
+		homepage.navigateToBackPage();
 
 	}
 
@@ -378,6 +439,8 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 25, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -390,6 +453,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+
+		homepage.navigateToBackPage();
 
 	}
 
@@ -405,6 +470,8 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
+		homepage.navigateToBackPage();
+
 	}
 
 	@Test(priority = 27, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -417,6 +484,8 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
+
+		homepage.navigateToBackPage();
 
 	}
 
