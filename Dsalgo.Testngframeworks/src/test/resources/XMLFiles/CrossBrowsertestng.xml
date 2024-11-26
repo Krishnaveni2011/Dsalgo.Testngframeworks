@@ -4,6 +4,7 @@
 
 	<listeners>
 		<listener class-name="dsalgo.listeners.DsAlgoListeners"></listener>
+		<listener class-name="dsalgo.utilities.AnnotationTransformer"></listener>
 	</listeners>
 	
 	<test name="Testchrome">
