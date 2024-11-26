@@ -3,11 +3,16 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-    <class name="dsalgo.testcases.TreeTest"/>
-    <class name="dsalgo.testcases.DataStructureTest"/>  
-     
-        <!--   <class name="dsalgo.testcases.RegisterTest"/>-->
-      <class name="dsalgo.testcases.QueueTest"/>
+	     <class name="dsalgo.testcases.ArraysTest"/>
+	     <class name="dsalgo.testcases.GraphTest"/>
+	     <class name="dsalgo.testcases.LinkedListTest"/>
+	     <class name="dsalgo.testcases.TreeTest"/>
+	     <class name="dsalgo.testcases.DataStructureTest"/>  
+	     <class name="dsalgo.testcases.HomePageTest"/>
+	      <class name="dsalgo.testcases.StackTest"/>
+	      <class name="dsalgo.testcases.RegisterTest"/>
+	      <class name="dsalgo.testcases.QueueTest"/>
+	      <class name="dsalgo.testcases.LoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
