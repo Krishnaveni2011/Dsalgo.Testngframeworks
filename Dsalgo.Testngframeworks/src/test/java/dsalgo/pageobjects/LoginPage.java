@@ -11,7 +11,7 @@ import dsalgo.driverfactory.DriverFactory;
 //import dsalgo.utilities.ConfigReader;
 //import dsalgo.utilities.Loggerload;
 
-public class Login_POM {
+public class LoginPage {
 	
 WebDriver driver = DriverFactory.getDriver();
 	
@@ -44,7 +44,7 @@ WebDriver driver = DriverFactory.getDriver();
 	
 	@FindBy (xpath="//a[@href='/logout']")WebElement signout;
 	
-	public Login_POM() {
+	public LoginPage() {
 
 		PageFactory.initElements(driver, this);
 	}
