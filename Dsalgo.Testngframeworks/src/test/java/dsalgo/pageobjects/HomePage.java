@@ -229,6 +229,10 @@ public class HomePage {
 	public void clickSignOut() {
 		signOut.click();
 	}
+	
+	public void navigateToBackPage() {
+		driver.navigate().back();
+	}
 
 	public boolean isloginbuttonpresent() {
 		return LoginBtn.isDisplayed();
