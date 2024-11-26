@@ -1,0 +1,32 @@
+[INFO ] 2024-11-25 16:22:25.092 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 16:22:33.629 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-25 16:23:26.081 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-25 16:23:26.081 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-25 16:23:26.191 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-25 16:23:26.530 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-25 16:23:42.422 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 16:23:44.359 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-25 16:24:11.029 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 16:24:15.947 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-25 16:24:31.423 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-25 16:24:32.616 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-25 16:24:33.861 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-25 16:24:35.638 [main] Loggerload - User registers with valid details
+[INFO ] 2024-11-25 16:24:37.976 [main] Loggerload - User logins with valid details
+[INFO ] 2024-11-25 16:24:49.852 [main] Loggerload - User is on home page
+[INFO ] 2024-11-25 16:24:49.979 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-25 16:24:50.149 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-25 16:47:12.169 [main] Loggerload - User is on home page
+[INFO ] 2024-11-25 16:47:12.356 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-25 16:47:12.500 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-25 17:01:41.273 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 17:01:49.497 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-25 17:03:26.929 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 17:04:21.584 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 17:05:14.248 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 17:05:22.689 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-25 17:07:02.586 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 17:08:50.177 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 17:08:58.954 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-25 17:10:57.413 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-25 17:11:05.762 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
