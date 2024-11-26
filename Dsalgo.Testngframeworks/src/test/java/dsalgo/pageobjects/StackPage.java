@@ -19,7 +19,7 @@ import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.openqa.selenium.Alert;
 
 
-public class Stack_POM {
+public class StackPage {
 	
 	WebDriver driver = DriverFactory.getDriver();
 	Utils eleUtil = new Utils();
@@ -46,7 +46,7 @@ public class Stack_POM {
     @FindBy(xpath="//textarea[@tabindex='0']") WebElement Stack_pythoninput;
     @FindBy(id = "answer_form") WebElement answerForm;
 	
-    public Stack_POM() { 
+    public StackPage() { 
 
 		PageFactory.initElements(driver, this);
 	}

@@ -3,17 +3,17 @@ package dsalgo.testcases;
 import static org.testng.Assert.assertEquals;
 
 import org.testng.Assert;
-
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 import org.testng.annotations.Test;
 
 import dsalgo.testbase.BaseClass;
 import dsalgo.utilities.ConfigReader;
-import dsalgo.pageobjects.DataStructure_POM;
-import dsalgo.pageobjects.Graph_POM;
+import dsalgo.pageobjects.DataStructurePage;
+import dsalgo.pageobjects.GraphPage;
 import dsalgo.pageobjects.HomePage;
-import dsalgo.pageobjects.Login_POM;
+import dsalgo.pageobjects.LoginPage;
 
 import dsalgo.utilities.Loggerload;
 
@@ -21,16 +21,23 @@ public class GraphTest extends BaseClass{
 	
 		ConfigReader reader = new ConfigReader();
 		HomePage homepage = new HomePage();
-		Login_POM sign = new Login_POM();
-
+		LoginPage sign = new LoginPage();
+		
 		@BeforeMethod
+		public void signin () {
+			driver.get(ConfigReader.getProperty("appHomeURL"));	
+			
+		}
+		
+		
+		@BeforeClass
 		public void OpenApp() {
 
 			driver.get(ConfigReader.getProperty("appURL"));
-			Login_POM sign = new Login_POM();
+			LoginPage sign = new LoginPage();
 			HomePage homepage = new HomePage();
-			DataStructure_POM dspom = new DataStructure_POM();
-			Graph_POM graph = new Graph_POM();
+			DataStructurePage dspom = new DataStructurePage();
+			GraphPage graph = new GraphPage();
 			homepage.clickOnGetStartedButton();
 			sign.signInclick();
 			dspom.Login("Rockstars_Numpy", "Numpy@Rock123");
@@ -43,7 +50,7 @@ public class GraphTest extends BaseClass{
 
 		@Test(priority = 1, dataProvider = "DataTryEditorValidCode", dataProviderClass = DataProviderClass.class)
 		public void GraphPageValidCode(String code, String output) throws InterruptedException {
-			Graph_POM graph = new Graph_POM();
+			GraphPage graph = new GraphPage();
 			graph.Graph_GetStartedbutton();
 			graph.Graph_Graphlink();
 			graph.Tryeditor_Graph();
@@ -57,7 +64,7 @@ public class GraphTest extends BaseClass{
 		@Test(priority = 2, dataProvider = "DataTryEditorInvalidCode", dataProviderClass = DataProviderClass.class)
 		public void GraphInValidcode(String code, String output) throws InterruptedException {
 
-			Graph_POM graph = new Graph_POM();
+			GraphPage graph = new GraphPage();
 			graph.Graph_GetStartedbutton();
 			graph.Graph_Graphlink();
 			graph.Tryeditor_Graph();
@@ -71,7 +78,7 @@ public class GraphTest extends BaseClass{
 
 		@Test(priority = 3, dataProvider = "DataTryEditorValidCode", dataProviderClass = DataProviderClass.class)
 		public void GraphRepresentationValidCode(String code, String output) throws InterruptedException {
-			Graph_POM graph = new Graph_POM();
+			GraphPage graph = new GraphPage();
 			graph.Graph_GetStartedbutton();
 			graph.Graph_Representationlink();
 			graph.Tryeditor_Graph();
@@ -85,7 +92,7 @@ public class GraphTest extends BaseClass{
 		@Test(priority = 4, dataProvider = "DataTryEditorInvalidCode", dataProviderClass = DataProviderClass.class)
 		public void GraphRepresentationInValidcode(String code, String output) throws InterruptedException {
 
-			Graph_POM graph = new Graph_POM();
+			GraphPage graph = new GraphPage();
 			graph.Graph_GetStartedbutton();
 			graph.Graph_Graphlink();
 			graph.Tryeditor_Graph();
@@ -100,7 +107,7 @@ public class GraphTest extends BaseClass{
 		@Test(priority = 5, description = "DS Practicequestion")
 		public void VerifyStackPracticeQuestio() throws InterruptedException {
 
-			Graph_POM graph = new Graph_POM();
+			GraphPage graph = new GraphPage();
 			graph.Graph_GetStartedbutton();
 			graph.Graph_Graphlink();
 			graph.Graph_practiceqn();

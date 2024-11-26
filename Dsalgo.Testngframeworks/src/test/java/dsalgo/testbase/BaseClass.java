@@ -29,10 +29,7 @@ public class BaseClass {
 	public void setUp() {
 
 		DriverFactory.initializeBrowser(ConfigReader.getProperty("browser"));
-
 	//DriverFactory.initializeBrowser(browser);
-	
-
 		driver = DriverFactory.getDriver();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
