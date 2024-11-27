@@ -12,6 +12,7 @@
   <parameter name="browser" value="chrome" />
 		<classes>
 						 
+			<class name="dsalgo.testcases.QueueTest" />
 			
 			<class name="dsalgo.testcases.RegisterTest" />
 			<class name="dsalgo.testcases.QueueTest" />

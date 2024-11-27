@@ -30,3 +30,1876 @@
 [INFO ] 2024-11-25 17:08:58.954 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
 [INFO ] 2024-11-25 17:10:57.413 [main] Loggerload - Title of the Page : " NumpyNinja" 
 [INFO ] 2024-11-25 17:11:05.762 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 16:49:53.551 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 16:49:55.059 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 16:52:40.673 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 16:52:40.793 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 16:52:40.935 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 16:52:45.672 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 16:52:45.774 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 16:52:50.772 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 16:52:50.773 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 16:52:50.970 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 16:52:51.399 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 16:52:53.580 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:52:53.580 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 16:52:53.977 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 16:52:53.977 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:52:54.837 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:52:56.879 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:52:56.881 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 16:52:57.194 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 16:52:57.194 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:52:57.706 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:52:59.916 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:52:59.916 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 16:53:00.288 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 16:53:00.288 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:00.812 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:02.842 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:02.842 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 16:53:03.292 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 16:53:03.293 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:03.856 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:06.240 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:06.241 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 16:53:06.636 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 16:53:06.637 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:07.344 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:09.700 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:09.701 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 16:53:10.088 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 16:53:10.089 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:10.533 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:12.645 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:12.646 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 16:53:12.968 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 16:53:12.968 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:13.548 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:15.770 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:15.770 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 16:53:16.109 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 16:53:16.109 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:16.550 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:18.692 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:18.693 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 16:53:19.073 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 16:53:19.073 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:19.618 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:21.877 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:21.878 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 16:53:22.209 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 16:53:22.209 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:22.686 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:25.008 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:25.008 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 16:53:25.475 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 16:53:25.477 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:26.154 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:28.215 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:28.216 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 16:53:28.539 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 16:53:28.539 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:28.943 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:31.083 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:31.084 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 16:53:31.497 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 16:53:31.497 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:32.012 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:34.127 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:34.130 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 16:53:34.490 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 16:53:34.491 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:35.016 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:37.021 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:37.022 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 16:53:37.355 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 16:53:37.356 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:37.941 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:40.073 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:40.075 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 16:53:40.388 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 16:53:40.388 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:40.868 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:43.032 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:43.033 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 16:53:43.399 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 16:53:43.400 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:43.990 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:46.458 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:46.459 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 16:53:46.770 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 16:53:46.770 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:47.302 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:49.219 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:49.220 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 16:53:49.597 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 16:53:49.597 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:50.107 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:52.178 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:52.178 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 16:53:52.509 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 16:53:52.509 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:53.005 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:55.367 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:55.367 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 16:53:55.753 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 16:53:55.754 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:53:56.273 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:53:58.408 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:53:58.409 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 16:53:58.765 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 16:53:58.767 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:54:00.625 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:54:02.688 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:54:02.688 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 16:54:03.217 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 16:54:03.218 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:54:03.800 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:54:05.938 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:54:05.939 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 16:54:06.291 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 16:54:06.291 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:54:06.767 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:54:08.855 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:54:08.855 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 16:54:09.244 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 16:54:09.245 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:54:09.794 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:54:11.811 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:54:11.811 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 16:54:12.172 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 16:54:12.172 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:54:12.748 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:54:14.761 [main] Loggerload - The is navigated to Implementation of BST Page 
+[INFO ] 2024-11-26 16:54:14.761 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 16:54:15.137 [main] Loggerload - The page title is : Practice Questions
+[INFO ] 2024-11-26 16:54:18.790 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 16:54:19.935 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 16:54:21.118 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 16:54:22.551 [main] Loggerload - User registers with valid details
+[INFO ] 2024-11-26 16:54:24.490 [main] Loggerload - User logins with valid details
+[INFO ] 2024-11-26 16:54:55.928 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 16:54:58.202 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 16:54:59.706 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 16:55:03.812 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 16:55:12.327 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 16:55:20.586 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 16:55:25.081 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 16:55:29.160 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 16:55:34.528 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 16:55:43.122 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 16:55:51.190 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 16:55:52.885 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 16:56:13.572 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 16:56:14.276 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 16:59:32.299 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 16:59:32.507 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 16:59:32.763 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 16:59:36.256 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 16:59:36.550 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 16:59:49.315 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 16:59:49.316 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 16:59:49.674 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 16:59:50.127 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 16:59:52.888 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:59:52.889 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 16:59:53.342 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 16:59:53.343 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:59:54.426 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 16:59:57.215 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 16:59:57.216 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 16:59:57.623 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 16:59:57.623 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 16:59:58.353 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:01.034 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:01.034 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 17:00:01.440 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 17:00:01.440 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:01.906 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:04.708 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:04.708 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 17:00:05.091 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 17:00:05.091 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:05.559 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:07.681 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:07.682 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 17:00:08.084 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 17:00:08.085 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:08.607 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:11.741 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:11.741 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 17:00:12.403 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 17:00:12.403 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:13.140 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:16.266 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:16.267 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 17:00:16.684 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 17:00:16.684 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:17.168 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:19.388 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:19.388 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 17:00:19.826 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 17:00:19.829 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:20.406 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:22.673 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:22.673 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 17:00:23.259 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 17:00:23.259 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:23.749 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:26.402 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:26.403 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 17:00:26.991 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 17:00:26.991 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:27.601 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:30.566 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:30.567 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 17:00:31.362 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 17:00:31.368 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:32.059 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:34.468 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:34.469 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 17:00:34.921 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 17:00:34.921 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:35.376 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:37.498 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:37.498 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 17:00:37.893 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 17:00:37.893 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:38.555 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:41.569 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:41.569 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 17:00:42.239 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 17:00:42.241 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:43.178 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:46.120 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:46.120 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 17:00:46.941 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 17:00:46.941 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:47.734 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:51.007 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:51.007 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 17:00:51.504 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 17:00:51.504 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:52.010 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:54.562 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:54.563 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 17:00:55.144 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 17:00:55.144 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:55.706 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:00:58.008 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:00:58.008 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 17:00:58.429 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 17:00:58.429 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:00:58.937 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:01.287 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:01:01.288 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 17:01:01.806 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 17:01:01.807 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:01:02.259 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:04.745 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:01:04.745 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 17:01:05.347 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 17:01:05.351 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:01:05.779 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:08.063 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:01:08.064 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 17:01:08.596 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 17:01:08.596 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:01:09.199 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:11.492 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:01:11.493 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 17:01:11.926 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 17:01:11.926 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:01:12.370 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:14.633 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:01:14.634 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 17:01:15.465 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 17:01:15.465 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:01:16.043 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:18.280 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:01:18.280 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 17:01:18.860 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 17:01:18.860 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:01:19.288 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:21.400 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:01:21.401 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 17:01:21.910 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 17:01:21.910 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:01:22.368 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:24.663 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:01:24.663 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 17:01:25.247 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 17:01:25.247 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:01:25.726 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:01:28.458 [main] Loggerload - The is navigated to Implementation of BST Page 
+[INFO ] 2024-11-26 17:01:28.458 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 17:01:28.728 [main] Loggerload - The page title is : Practice Questions
+[INFO ] 2024-11-26 17:01:38.262 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 17:01:39.796 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 17:01:41.090 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 17:01:42.478 [main] Loggerload - User registers with valid details
+[INFO ] 2024-11-26 17:01:44.423 [main] Loggerload - User logins with valid details
+[INFO ] 2024-11-26 17:02:19.030 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:02:22.995 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:02:24.678 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 17:02:36.080 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:02:44.629 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:02:52.687 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:02:56.891 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 17:03:05.638 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:03:11.349 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:03:19.908 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:03:28.050 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:03:29.537 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 17:03:45.565 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 17:03:47.033 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 17:08:03.105 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 17:08:03.441 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 17:08:03.970 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 17:08:19.712 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 17:08:20.361 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 17:08:38.830 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 17:08:38.831 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 17:08:39.583 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 17:08:41.258 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 17:08:47.639 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:08:47.642 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 17:08:49.137 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 17:08:49.137 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:09:13.875 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:09:13.877 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 17:09:15.734 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 17:09:15.735 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:09:29.001 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:09:29.001 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 17:09:29.469 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 17:09:29.469 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:09:40.261 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:09:40.261 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 17:09:40.775 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 17:09:40.775 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:10:13.981 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 17:10:17.834 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 17:10:20.468 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 17:10:22.992 [main] Loggerload - User registers with valid details
+[INFO ] 2024-11-26 17:10:26.529 [main] Loggerload - User logins with valid details
+[INFO ] 2024-11-26 17:11:44.466 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:11:47.858 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:11:49.831 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 17:12:01.501 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:12:10.540 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:12:20.918 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:12:27.425 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 17:12:40.986 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:12:47.857 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:12:56.972 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:13:05.451 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:13:07.121 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 17:21:05.237 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 17:21:16.986 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 17:21:18.440 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 17:21:19.727 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 17:22:03.386 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 17:22:14.889 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 17:22:15.011 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 17:22:15.150 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 17:22:20.604 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 17:22:20.781 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 17:22:25.193 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 17:22:25.193 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 17:22:25.309 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 17:22:25.623 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 17:22:27.214 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:27.214 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 17:22:27.778 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 17:22:27.779 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:28.923 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:30.603 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:30.603 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 17:22:30.830 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 17:22:30.830 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:31.112 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:32.741 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:32.741 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 17:22:32.986 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 17:22:32.986 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:33.308 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:34.760 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:34.761 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 17:22:35.036 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 17:22:35.037 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:35.302 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:36.850 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:36.850 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 17:22:37.120 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 17:22:37.121 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:37.497 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:38.947 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:38.947 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 17:22:39.266 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 17:22:39.266 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:39.625 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:41.250 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:41.251 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 17:22:41.531 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 17:22:41.531 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:41.955 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:43.535 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:43.535 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 17:22:43.767 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 17:22:43.767 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:44.069 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:45.571 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:45.573 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 17:22:45.837 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 17:22:45.837 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:46.188 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:47.690 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:47.690 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 17:22:47.883 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 17:22:47.883 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:48.201 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:49.512 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:49.512 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 17:22:49.812 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 17:22:49.812 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:50.097 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:51.469 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:51.470 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 17:22:51.708 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 17:22:51.708 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:51.974 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:53.544 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:53.545 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 17:22:53.801 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 17:22:53.801 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:54.113 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:55.673 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:55.673 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 17:22:55.886 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 17:22:55.886 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:56.172 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:22:57.698 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:22:57.699 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 17:22:57.963 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 17:22:57.964 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:22:58.321 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:00.059 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:00.060 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 17:23:00.283 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 17:23:00.284 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:00.580 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:02.342 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:02.343 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 17:23:02.648 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 17:23:02.649 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:03.124 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:04.709 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:04.709 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 17:23:04.949 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 17:23:04.949 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:05.267 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:06.824 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:06.824 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 17:23:07.088 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 17:23:07.088 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:07.485 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:09.062 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:09.062 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 17:23:09.376 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 17:23:09.376 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:09.880 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:11.430 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:11.430 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 17:23:11.636 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 17:23:11.636 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:11.954 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:13.393 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:13.393 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 17:23:13.607 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 17:23:13.607 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:13.949 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:15.350 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:15.350 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 17:23:15.729 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 17:23:15.731 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:16.042 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:17.357 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:17.357 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 17:23:17.587 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 17:23:17.587 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:17.900 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:19.263 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:19.263 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 17:23:19.515 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 17:23:19.515 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:19.858 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:21.320 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 17:23:21.321 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 17:23:21.533 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 17:23:21.534 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 17:23:21.809 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 17:23:23.196 [main] Loggerload - The is navigated to Implementation of BST Page 
+[INFO ] 2024-11-26 17:23:23.196 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 17:23:23.405 [main] Loggerload - The page title is : Practice Questions
+[INFO ] 2024-11-26 17:25:54.236 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:25:58.472 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:26:02.222 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 17:26:12.612 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:26:23.725 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:26:33.758 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:26:38.189 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 17:26:44.106 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 17:26:49.492 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:26:57.105 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:27:05.089 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 17:27:06.558 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 18:22:54.380 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 18:23:04.882 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 18:23:06.260 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 18:23:07.381 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 18:23:49.954 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 18:23:57.420 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 18:23:57.531 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 18:23:57.612 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 18:23:59.154 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:23:59.154 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 18:23:59.465 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:23:59.963 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:01.465 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:24:01.465 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 18:24:01.662 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:10.961 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:12.296 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:24:12.554 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:12.892 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:14.213 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:24:14.404 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:14.658 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:15.942 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:24:15.942 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 18:24:16.207 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:16.502 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:17.806 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 18:24:18.086 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:18.365 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:19.689 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:24:19.689 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 18:24:19.914 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:20.218 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:21.583 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 18:24:21.774 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:22.098 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:23.209 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 18:24:23.371 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 18:24:26.192 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 18:24:26.193 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 18:24:26.257 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 18:24:26.498 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 18:24:27.718 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:27.719 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 18:24:28.015 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 18:24:28.015 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:28.808 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:30.363 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:30.364 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 18:24:30.547 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 18:24:30.547 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:30.853 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:32.178 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:32.179 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 18:24:32.400 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 18:24:32.400 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:32.691 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:33.973 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:33.974 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 18:24:34.252 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 18:24:34.253 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:34.594 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:36.068 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:36.068 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 18:24:36.316 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 18:24:36.318 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:36.629 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:37.882 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:37.882 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 18:24:38.084 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 18:24:38.084 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:38.332 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:39.769 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:39.769 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 18:24:39.986 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 18:24:39.986 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:40.286 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:41.621 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:41.621 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 18:24:41.812 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 18:24:41.812 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:42.092 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:43.388 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:43.388 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 18:24:43.600 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 18:24:43.600 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:43.877 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:45.340 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:45.341 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 18:24:45.538 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 18:24:45.538 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:45.854 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:47.340 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:47.340 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 18:24:47.568 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 18:24:47.568 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:47.861 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:49.302 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:49.302 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 18:24:49.514 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 18:24:49.514 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:49.755 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:51.031 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:51.031 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 18:24:51.261 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 18:24:51.262 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:51.564 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:52.863 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:52.863 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 18:24:53.096 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 18:24:53.096 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:53.350 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:54.678 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:54.679 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 18:24:54.890 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 18:24:54.890 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:55.211 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:56.720 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:56.720 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 18:24:56.903 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 18:24:56.903 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:57.154 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:24:58.494 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:24:58.494 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 18:24:58.775 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 18:24:58.775 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:24:59.090 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:00.538 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:00.538 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 18:25:00.736 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 18:25:00.736 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:00.998 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:02.431 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:02.432 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 18:25:02.642 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 18:25:02.642 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:02.940 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:04.330 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:04.330 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 18:25:04.515 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 18:25:04.515 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:04.809 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:06.304 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:06.305 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 18:25:06.536 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 18:25:06.536 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:06.869 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:08.215 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:08.215 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 18:25:08.400 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 18:25:08.400 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:08.645 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:09.929 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:09.929 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 18:25:10.339 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 18:25:10.339 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:10.618 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:11.949 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:11.949 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 18:25:12.142 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 18:25:12.142 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:12.391 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:13.644 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:13.646 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 18:25:13.893 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 18:25:13.893 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:14.206 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:15.679 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:25:15.679 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 18:25:15.939 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 18:25:15.940 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:25:16.268 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:25:17.762 [main] Loggerload - The is navigated to Implementation of BST Page 
+[INFO ] 2024-11-26 18:25:17.762 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 18:25:17.984 [main] Loggerload - The page title is : Practice Questions
+[INFO ] 2024-11-26 18:27:13.664 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 18:27:16.393 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:27:17.740 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 18:27:21.961 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 18:27:30.658 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:27:38.827 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:27:43.253 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 18:27:48.710 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 18:27:54.430 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:28:02.864 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:28:10.834 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:28:12.117 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 18:32:42.426 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 18:32:46.138 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 18:32:46.628 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 18:32:47.332 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 18:33:29.845 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 18:33:37.511 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 18:33:37.653 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 18:33:37.722 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 18:33:39.210 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:33:39.210 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 18:33:39.444 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:33:39.954 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:33:41.413 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:33:41.415 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 18:33:41.592 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:33:41.843 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:33:43.587 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:33:43.814 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:34:04.387 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:34:04.592 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:34:15.028 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:34:15.217 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:42:08.845 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 18:42:12.750 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 18:42:13.301 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 18:42:15.204 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 18:42:57.569 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 18:43:05.002 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 18:43:05.123 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 18:43:05.192 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 18:43:06.753 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:43:06.753 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 18:43:07.008 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:07.571 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:08.948 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:43:08.949 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 18:43:09.143 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:09.418 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:10.880 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:43:11.126 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:11.412 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:12.726 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:43:12.961 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:13.211 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:14.567 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:43:14.567 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 18:43:14.789 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:15.105 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:16.500 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 18:43:16.693 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:16.949 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:18.366 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:43:18.366 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 18:43:18.617 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:18.939 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:20.296 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 18:43:20.514 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:20.776 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:21.887 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 18:43:21.998 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 18:43:25.195 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 18:43:25.195 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 18:43:25.304 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 18:43:25.678 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 18:43:27.684 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:27.684 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 18:43:28.113 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 18:43:28.113 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:28.880 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:31.200 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:31.200 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 18:43:31.435 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 18:43:31.435 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:31.794 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:33.643 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:33.643 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 18:43:33.967 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 18:43:33.968 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:34.533 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:36.535 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:36.535 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 18:43:36.801 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 18:43:36.802 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:37.232 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:40.057 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:40.057 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 18:43:40.545 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 18:43:40.545 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:41.366 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:44.134 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:44.135 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 18:43:44.569 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 18:43:44.570 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:45.060 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:47.041 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:47.041 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 18:43:47.417 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 18:43:47.419 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:47.937 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:50.004 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:50.004 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 18:43:50.496 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 18:43:50.496 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:51.120 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:53.261 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:53.263 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 18:43:53.643 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 18:43:53.643 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:54.272 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:56.667 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:56.667 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 18:43:56.972 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 18:43:56.972 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:43:57.441 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:43:59.682 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:43:59.682 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 18:44:00.257 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 18:44:00.257 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:44:01.157 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:44:05.229 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:44:05.230 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 18:44:05.950 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 18:44:05.950 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:44:06.807 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:44:10.497 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:44:10.498 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 18:44:11.169 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 18:44:11.169 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:44:11.914 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:44:14.397 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:44:14.397 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 18:44:14.729 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 18:44:14.729 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:44:15.170 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:44:17.139 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:44:17.139 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 18:44:17.487 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 18:44:17.487 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:44:17.975 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:44:19.979 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:44:19.979 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 18:44:20.378 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 18:44:20.378 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:44:20.891 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:44:23.072 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:44:23.073 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 18:44:23.560 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 18:44:23.561 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:44:44.763 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:44:44.764 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 18:44:45.254 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 18:44:45.255 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:44:50.039 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:48:26.676 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 18:48:42.333 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 18:48:44.920 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 18:48:46.559 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 18:49:29.110 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 18:49:38.538 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 18:49:38.712 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 18:49:39.041 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 18:49:44.028 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:49:44.030 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 18:49:44.819 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:49:46.370 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:49:50.905 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:49:50.906 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 18:49:51.494 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:49:52.369 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:49:56.275 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:49:56.773 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:49:57.431 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:49:59.648 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 18:49:59.924 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:00.365 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:02.359 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:50:02.360 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 18:50:02.732 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:03.302 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:05.257 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 18:50:05.610 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:06.123 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:08.370 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 18:50:08.371 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 18:50:08.702 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:09.136 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:11.081 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 18:50:11.391 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:11.846 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:13.688 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 18:50:13.818 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 18:50:19.470 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 18:50:19.471 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 18:50:19.711 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 18:50:20.352 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 18:50:24.704 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:24.707 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 18:50:25.924 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 18:50:25.925 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:27.597 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:31.291 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:31.291 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 18:50:31.641 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 18:50:31.642 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:32.167 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:34.101 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:34.102 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 18:50:34.441 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 18:50:34.441 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:35.000 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:37.192 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:37.192 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 18:50:37.510 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 18:50:37.510 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:37.885 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:40.331 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:40.332 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 18:50:40.868 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 18:50:40.868 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:41.701 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:44.799 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:44.800 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 18:50:45.479 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 18:50:45.480 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:46.406 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:50.139 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:50.140 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 18:50:50.895 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 18:50:50.895 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:51.769 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:54.741 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:54.741 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 18:50:55.261 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 18:50:55.261 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:55.810 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:50:58.106 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:50:58.107 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 18:50:58.441 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 18:50:58.441 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:50:59.033 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:51:01.234 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:51:01.234 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 18:51:01.557 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 18:51:01.558 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:51:02.057 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:51:04.207 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:51:04.207 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 18:51:04.600 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 18:51:04.600 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:51:05.068 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:51:07.094 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:51:07.094 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 18:51:07.726 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 18:51:07.728 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:51:08.310 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:51:10.674 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:51:10.674 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 18:51:11.138 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 18:51:11.139 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:51:11.875 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:51:14.107 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:51:14.108 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 18:51:14.448 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 18:51:14.449 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:51:14.909 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 18:51:17.303 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:51:17.303 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 18:51:17.769 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 18:51:17.769 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:51:38.609 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:51:38.609 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 18:51:39.068 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 18:51:39.069 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:51:49.911 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:51:49.913 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 18:51:50.234 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 18:51:50.235 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:52:00.970 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 18:52:00.970 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 18:52:01.348 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 18:52:01.349 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 18:55:08.120 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 18:55:12.247 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:55:14.988 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 18:55:16.916 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 18:55:22.631 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 18:55:30.640 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:55:37.608 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 18:55:44.753 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:55:51.882 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 18:55:55.550 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 18:55:58.417 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 18:56:03.262 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:56:07.967 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 18:56:15.538 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:56:22.668 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 18:56:29.795 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 18:56:36.919 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 18:56:37.740 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:13:50.589 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 19:13:51.047 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 19:15:20.458 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 19:15:20.570 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 19:15:20.677 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 19:15:22.333 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:15:22.334 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 19:15:22.619 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:23.220 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:24.937 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:15:24.937 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 19:15:25.148 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:25.515 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:27.200 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 19:15:27.507 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:27.864 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:29.609 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 19:15:29.838 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:30.115 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:31.802 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:15:31.802 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 19:15:32.084 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:32.477 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:34.141 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 19:15:34.359 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:34.720 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:36.403 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:15:36.403 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 19:15:36.647 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:37.103 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:38.734 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 19:15:38.938 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:39.264 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:40.716 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 19:15:40.875 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 19:15:45.231 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 19:15:45.231 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 19:15:45.371 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 19:15:45.901 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 19:15:48.593 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:15:48.594 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 19:15:49.073 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 19:15:49.073 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:50.094 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:52.789 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:15:52.790 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 19:15:53.322 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 19:15:53.323 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:54.089 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:55.975 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:15:55.975 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 19:15:56.265 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 19:15:56.266 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:56.663 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:15:58.515 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:15:58.515 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 19:15:58.780 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 19:15:58.780 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:15:59.165 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:01.233 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:01.233 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 19:16:01.532 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 19:16:01.532 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:01.925 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:03.571 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:03.571 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 19:16:03.818 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 19:16:03.818 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:04.227 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:05.881 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:05.882 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 19:16:06.152 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 19:16:06.152 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:06.550 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:08.238 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:08.239 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 19:16:08.617 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 19:16:08.618 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:08.978 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:10.653 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:10.653 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 19:16:10.930 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 19:16:10.930 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:11.358 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:13.840 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:13.841 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 19:16:14.721 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 19:16:14.721 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:15.265 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:17.067 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:17.067 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 19:16:17.363 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 19:16:17.363 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:17.757 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:19.479 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:19.479 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 19:16:19.740 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 19:16:19.740 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:20.138 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:22.040 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:22.040 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 19:16:22.368 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 19:16:22.368 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:22.840 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:24.656 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:24.656 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 19:16:24.901 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 19:16:24.901 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:25.254 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:26.892 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:26.892 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 19:16:27.173 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 19:16:27.173 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:27.554 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:29.397 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:29.398 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 19:16:29.632 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 19:16:29.632 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:29.996 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:31.917 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:31.918 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 19:16:32.319 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 19:16:32.319 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:32.808 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:34.604 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:34.604 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 19:16:34.840 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 19:16:34.841 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:35.178 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:36.945 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:36.945 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 19:16:37.236 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 19:16:37.236 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:37.635 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:39.336 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:39.336 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 19:16:39.583 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 19:16:39.583 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:39.972 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:41.756 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:41.756 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 19:16:42.148 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 19:16:42.148 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:42.608 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:45.027 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:45.027 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 19:16:45.467 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 19:16:45.467 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:51.732 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:55.146 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:55.146 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 19:16:55.741 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 19:16:55.741 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:16:56.466 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:16:58.999 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:16:58.999 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 19:16:59.423 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 19:16:59.423 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:17:23.855 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 19:17:24.979 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 19:17:26.312 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 19:17:27.788 [main] Loggerload - User registers with valid details
+[INFO ] 2024-11-26 19:17:29.180 [main] Loggerload - User logins with valid details
+[INFO ] 2024-11-26 19:17:40.485 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:17:42.554 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:17:44.544 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:17:45.771 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:17:50.333 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:17:58.801 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:18:06.013 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:18:13.164 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:18:20.326 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:18:24.070 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:18:28.048 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:18:33.080 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:18:37.246 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:18:44.407 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:18:51.331 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:18:58.364 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:19:05.294 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:19:06.039 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:19:10.199 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 19:19:11.229 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 19:22:52.155 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 19:22:55.808 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 19:22:56.342 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 19:22:56.801 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 19:23:07.974 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 19:23:13.754 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 19:23:13.843 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 19:23:13.910 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 19:23:15.387 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:23:15.389 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 19:23:15.663 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:16.246 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:17.882 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:23:17.882 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 19:23:18.115 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:18.453 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:19.741 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 19:23:19.972 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:20.262 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:21.592 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 19:23:21.781 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:22.037 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:23.395 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:23:23.395 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 19:23:23.645 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:23.949 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:25.332 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 19:23:25.535 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:25.779 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:27.052 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:23:27.052 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 19:23:27.304 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:27.634 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:29.014 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 19:23:29.214 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:29.486 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:30.672 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 19:23:30.788 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 19:23:33.524 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 19:23:33.524 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 19:23:33.601 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 19:23:33.839 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 19:23:35.139 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:35.139 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 19:23:35.393 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 19:23:35.393 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:35.929 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:37.674 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:37.674 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 19:23:37.855 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 19:23:37.855 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:38.196 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:39.545 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:39.546 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 19:23:39.760 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 19:23:39.760 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:40.050 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:41.462 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:41.462 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 19:23:41.659 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 19:23:41.660 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:41.962 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:43.323 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:43.323 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 19:23:43.553 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 19:23:43.553 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:43.860 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:45.312 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:45.312 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 19:23:45.509 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 19:23:45.509 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:45.780 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:47.160 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:47.160 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 19:23:47.423 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 19:23:47.424 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:47.770 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:49.170 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:49.170 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 19:23:49.376 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 19:23:49.376 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:49.661 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:51.172 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:51.173 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 19:23:51.450 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 19:23:51.452 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:51.914 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:53.655 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:53.656 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 19:23:53.901 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 19:23:53.901 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:54.254 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:55.740 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:55.740 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 19:23:56.063 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 19:23:56.063 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:56.478 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:23:58.074 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:23:58.074 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 19:23:58.326 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 19:23:58.326 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:23:58.640 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:00.410 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:00.410 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 19:24:00.742 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 19:24:00.742 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:01.154 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:02.980 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:02.981 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 19:24:03.281 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 19:24:03.281 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:03.699 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:06.550 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:06.550 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 19:24:06.878 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 19:24:06.878 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:07.285 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:09.222 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:09.223 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 19:24:09.488 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 19:24:09.488 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:10.027 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:11.641 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:11.641 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 19:24:11.997 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 19:24:11.997 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:12.424 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:14.315 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:14.315 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 19:24:14.586 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 19:24:14.586 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:14.910 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:16.726 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:16.727 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 19:24:17.070 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 19:24:17.070 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:17.486 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:19.240 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:19.240 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 19:24:19.555 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 19:24:19.556 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:19.915 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:21.886 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:21.887 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 19:24:22.197 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 19:24:22.197 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:22.602 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:24.403 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:24.403 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 19:24:24.694 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 19:24:24.694 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:25.085 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:26.929 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:26.929 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 19:24:27.258 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 19:24:27.258 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:27.655 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:29.650 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:29.650 [main] Loggerload - The user clicks on Binary Search Trees Link
+[INFO ] 2024-11-26 19:24:30.023 [main] Loggerload - The page title is : Binary Search Trees
+[INFO ] 2024-11-26 19:24:30.023 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:24:30.393 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:24:32.307 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:24:32.307 [main] Loggerload - The user clicks on Implementation of BST Link
+[INFO ] 2024-11-26 19:24:32.691 [main] Loggerload - The page title is : Implementation Of BST
+[INFO ] 2024-11-26 19:24:32.692 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:27:40.561 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:27:44.235 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:27:46.802 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:27:48.216 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:27:53.606 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:28:02.066 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:28:10.358 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:28:17.781 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:28:25.440 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:28:29.231 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:28:33.987 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:28:39.538 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:28:44.042 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:28:51.479 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:28:58.587 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:29:05.848 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:29:12.895 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:29:13.593 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:34:25.384 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 19:34:29.651 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 19:34:30.282 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 19:34:30.792 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 19:34:42.121 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 19:34:47.639 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 19:34:47.744 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 19:34:47.853 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 19:34:49.643 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:34:49.644 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 19:34:49.881 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:34:50.421 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:34:51.763 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:34:51.763 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 19:34:51.950 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:34:52.241 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:34:53.656 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 19:34:53.930 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:34:54.274 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:34:55.752 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 19:34:55.973 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:34:56.300 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:34:57.631 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:34:57.632 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 19:34:57.933 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:34:58.241 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:34:59.632 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 19:34:59.863 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:00.143 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:01.562 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 19:35:01.562 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 19:35:01.763 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:02.149 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:03.550 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 19:35:03.750 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:04.015 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:05.407 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 19:35:05.524 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 19:35:08.806 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 19:35:08.807 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 19:35:08.924 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 19:35:09.238 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 19:35:10.937 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:10.937 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 19:35:11.280 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 19:35:11.280 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:12.031 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:13.815 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:13.815 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 19:35:14.271 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 19:35:14.272 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:14.970 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:17.596 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:17.596 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 19:35:17.859 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 19:35:17.860 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:18.254 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:19.937 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:19.937 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 19:35:20.220 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 19:35:20.221 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:20.600 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:22.309 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:22.309 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 19:35:22.551 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 19:35:22.553 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:22.956 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:24.803 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:24.803 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 19:35:25.038 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 19:35:25.038 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:25.364 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:27.256 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:27.257 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 19:35:27.558 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 19:35:27.558 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:28.020 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:29.919 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:29.920 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 19:35:30.220 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 19:35:30.221 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:30.590 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:32.547 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:32.547 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 19:35:32.845 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 19:35:32.845 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:33.253 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:34.958 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:34.958 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 19:35:35.246 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 19:35:35.246 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:35.608 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:37.533 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:37.533 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 19:35:37.821 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 19:35:37.821 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:38.249 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:40.141 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:40.142 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 19:35:40.463 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 19:35:40.463 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:40.861 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:42.681 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:42.681 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 19:35:43.026 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 19:35:43.027 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:43.476 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:45.301 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:45.301 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 19:35:45.609 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 19:35:45.610 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:45.949 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:47.859 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:47.859 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 19:35:48.210 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 19:35:48.211 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:48.638 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:50.838 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:50.838 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 19:35:51.280 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 19:35:51.281 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:51.878 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:54.387 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:54.388 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 19:35:54.911 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 19:35:54.911 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:55.739 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:35:58.016 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:35:58.016 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 19:35:58.340 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 19:35:58.340 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:35:58.839 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:36:00.959 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:36:00.959 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 19:36:01.265 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 19:36:01.266 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:36:01.621 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:36:03.505 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:36:03.505 [main] Loggerload - The user clicks on Implementation of Binary Trees Link
+[INFO ] 2024-11-26 19:36:03.797 [main] Loggerload - The page title is : Implementation of Binary Trees
+[INFO ] 2024-11-26 19:36:03.797 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:36:04.164 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:36:05.978 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:36:05.979 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 19:36:06.271 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 19:36:06.271 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:36:06.682 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 19:36:09.543 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 19:36:09.543 [main] Loggerload - The user clicks on Applications of Binary Trees Link
+[INFO ] 2024-11-26 19:36:10.032 [main] Loggerload - The page title is : Applications of Binary trees
+[INFO ] 2024-11-26 19:36:10.034 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 19:38:51.745 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:38:54.714 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:38:56.557 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:38:57.802 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:39:02.236 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:39:10.706 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:39:17.997 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:39:25.138 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:39:31.984 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:39:36.007 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:39:38.862 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 19:39:43.965 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:39:49.101 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:39:57.038 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:40:04.121 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:40:11.175 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 19:40:18.375 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 19:40:19.392 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 19:42:40.519 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 19:42:40.980 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 19:43:20.873 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 19:43:21.345 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 19:50:26.625 [main] Loggerload - User Enter Login credential with username as " username" and password as" sdet84batch" 
+[INFO ] 2024-11-26 19:50:27.058 [main] Loggerload - The user is on the Login home page and successfully logged in.
+[INFO ] 2024-11-26 20:26:41.166 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:26:41.836 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:26:44.265 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" " 
+[ERROR] 2024-11-26 20:26:44.355 [main] Loggerload - The password textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:26:45.222 [main] Loggerload - User Enter Login credential with username as " " and password as" Numpy@Rock123" 
+[ERROR] 2024-11-26 20:26:45.250 [main] Loggerload - The username textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:26:46.024 [main] Loggerload - User Enter Login credential with username as " " and password as" " 
+[ERROR] 2024-11-26 20:26:46.068 [main] Loggerload - The username textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:26:47.028 [main] Loggerload - User Enter Login credential with username as " username" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:26:47.136 [main] Loggerload - If you don't have an account, please Register
+[INFO ] 2024-11-26 20:26:48.674 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" sdet84batch" 
+[INFO ] 2024-11-26 20:26:48.759 [main] Loggerload - If you don't have an account, please Register
+[INFO ] 2024-11-26 20:27:13.496 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:27:14.135 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:27:16.264 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" " 
+[ERROR] 2024-11-26 20:27:16.300 [main] Loggerload - The password textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:27:17.141 [main] Loggerload - User Enter Login credential with username as " " and password as" Numpy@Rock123" 
+[ERROR] 2024-11-26 20:27:17.173 [main] Loggerload - The username textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:27:17.991 [main] Loggerload - User Enter Login credential with username as " " and password as" " 
+[ERROR] 2024-11-26 20:27:18.034 [main] Loggerload - The username textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:27:18.942 [main] Loggerload - User Enter Login credential with username as " username" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:27:19.071 [main] Loggerload - If you don't have an account, please Register
+[INFO ] 2024-11-26 20:27:20.150 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" sdet84batch" 
+[INFO ] 2024-11-26 20:27:20.240 [main] Loggerload - If you don't have an account, please Register
+[INFO ] 2024-11-26 20:35:27.597 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:35:28.426 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:37:03.121 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:37:03.759 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:37:41.557 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 20:37:44.897 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:37:45.680 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:38:18.203 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:38:18.877 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:42:22.535 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:42:23.444 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:43:45.677 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:43:46.396 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:44:55.483 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" " 
+[ERROR] 2024-11-26 20:44:55.523 [main] Loggerload - The password textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:44:56.352 [main] Loggerload - User Enter Login credential with username as " " and password as" Numpy@Rock123" 
+[ERROR] 2024-11-26 20:44:56.382 [main] Loggerload - The username textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:44:57.142 [main] Loggerload - User Enter Login credential with username as " " and password as" " 
+[ERROR] 2024-11-26 20:44:57.186 [main] Loggerload - The username textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:44:58.095 [main] Loggerload - User Enter Login credential with username as " username" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:44:58.236 [main] Loggerload - If you don't have an account, please Register
+[INFO ] 2024-11-26 20:44:59.717 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" sdet84batch" 
+[INFO ] 2024-11-26 20:44:59.829 [main] Loggerload - If you don't have an account, please Register
+[INFO ] 2024-11-26 20:46:35.183 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 20:46:35.328 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 20:46:35.491 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 20:46:37.815 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 20:46:37.815 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 20:46:38.134 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:46:38.795 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:46:40.686 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 20:46:40.687 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 20:46:40.945 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:46:41.325 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:46:43.042 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 20:46:43.353 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:46:43.854 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:46:45.672 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 20:46:45.893 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:46:46.253 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:46:48.201 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 20:46:48.201 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 20:46:48.518 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:46:48.994 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:46:50.774 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 20:46:51.040 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:46:51.413 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:46:53.305 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 20:46:53.306 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 20:46:53.590 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:46:53.977 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:46:55.679 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 20:46:55.966 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:46:56.338 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:46:58.047 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 20:46:58.193 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 20:47:03.743 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 20:47:03.744 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 20:47:04.040 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 20:47:04.667 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 20:47:07.864 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:07.865 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 20:47:08.516 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 20:47:08.517 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:10.079 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:14.297 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:14.297 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 20:47:14.719 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 20:47:14.720 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:15.308 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:17.458 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:17.458 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 20:47:17.754 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 20:47:17.754 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:18.187 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:20.039 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:20.039 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 20:47:20.398 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 20:47:20.399 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:20.880 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:23.295 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:23.296 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 20:47:23.781 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 20:47:23.781 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:24.596 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:27.742 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:27.744 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 20:47:28.207 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 20:47:28.207 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:28.965 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:32.167 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:32.168 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 20:47:32.611 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 20:47:32.612 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:33.302 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:35.488 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:35.488 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 20:47:35.788 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 20:47:35.788 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:36.234 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:38.227 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:38.227 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 20:47:38.538 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 20:47:38.538 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:38.941 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:40.975 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:40.975 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 20:47:41.284 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 20:47:41.284 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:41.806 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:43.918 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:43.918 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 20:47:44.329 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 20:47:44.329 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:44.933 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:47.214 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:47.216 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 20:47:47.547 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 20:47:47.547 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:48.007 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:50.327 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:50.327 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 20:47:50.683 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 20:47:50.683 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:51.209 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:53.380 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:53.380 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 20:47:53.734 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 20:47:53.734 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:54.220 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:56.143 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:56.144 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 20:47:56.517 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 20:47:56.518 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:57.037 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:47:58.895 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:47:58.895 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 20:47:59.167 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 20:47:59.167 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:47:59.617 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:48:01.977 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:48:01.977 [main] Loggerload - The user clicks on Binary Tree Traversals Link
+[INFO ] 2024-11-26 20:48:02.431 [main] Loggerload - The page title is : Binary Tree Traversals
+[INFO ] 2024-11-26 20:48:02.432 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:48:31.924 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 20:48:35.316 [main] Loggerload - User enter username and other fields empty
+[INFO ] 2024-11-26 20:48:39.604 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 20:48:43.561 [main] Loggerload - User registers with valid details
+[INFO ] 2024-11-26 20:49:17.918 [main] Loggerload - User clicks on register button with empty fields
+[INFO ] 2024-11-26 20:49:31.265 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:49:33.993 [main] Loggerload - The user is on the NumpyNinja home page and successfully logged in.
+[INFO ] 2024-11-26 20:49:45.974 [main] Loggerload - User enter username, password & Pwd confirmation empty
+[INFO ] 2024-11-26 20:49:48.557 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" " 
+[ERROR] 2024-11-26 20:49:48.632 [main] Loggerload - The password textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:49:50.767 [main] Loggerload - User Enter Login credential with username as " " and password as" Numpy@Rock123" 
+[ERROR] 2024-11-26 20:49:50.885 [main] Loggerload - The username textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:49:54.204 [main] Loggerload - User Enter Login credential with username as " " and password as" " 
+[ERROR] 2024-11-26 20:49:54.435 [main] Loggerload - The username textfield alert : Please fill out this field.
+[INFO ] 2024-11-26 20:49:58.481 [main] Loggerload - User Enter Login credential with username as " username" and password as" Numpy@Rock123" 
+[INFO ] 2024-11-26 20:49:58.831 [main] Loggerload - If you don't have an account, please Register
+[INFO ] 2024-11-26 20:50:03.237 [main] Loggerload - User Enter Login credential with username as " Rockstars_Numpy" and password as" sdet84batch" 
+[INFO ] 2024-11-26 20:50:03.604 [main] Loggerload - If you don't have an account, please Register
+[INFO ] 2024-11-26 20:50:13.982 [main] Loggerload - User is on home page
+[INFO ] 2024-11-26 20:50:14.127 [main] Loggerload - User clicked on Data Structures dropdown
+[INFO ] 2024-11-26 20:50:14.285 [main] Loggerload - The user selects queue from Data Structures dropdown
+[INFO ] 2024-11-26 20:50:16.528 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 20:50:16.528 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 20:50:16.924 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:17.729 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:19.637 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 20:50:19.637 [main] Loggerload - User clicks on Implementation of Queue in Python Link
+[INFO ] 2024-11-26 20:50:19.895 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:20.350 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:22.653 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 20:50:22.953 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:23.489 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:25.549 [main] Loggerload - User clicks on Implementation using collection.deque link
+[INFO ] 2024-11-26 20:50:25.840 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:26.263 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:28.193 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 20:50:28.193 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 20:50:28.571 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:29.130 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:31.230 [main] Loggerload - User click on Implementation using array
+[INFO ] 2024-11-26 20:50:31.522 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:31.903 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:33.947 [main] Loggerload - User is on Queue Page
+[INFO ] 2024-11-26 20:50:33.948 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 20:50:34.265 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:34.655 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:36.881 [main] Loggerload - User clicks on Queue Operations Link
+[INFO ] 2024-11-26 20:50:37.189 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:37.593 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:39.572 [main] Loggerload - User is on Queue Operations Link
+[INFO ] 2024-11-26 20:50:39.720 [main] Loggerload - User clicks on Practice Questions Link
+[INFO ] 2024-11-26 20:50:45.322 [main] Loggerload - The user is navigated to Home Page : https://dsportalapp.herokuapp.com/home
+[INFO ] 2024-11-26 20:50:45.323 [main] Loggerload - The user clicks on Data Structures dropdown
+[INFO ] 2024-11-26 20:50:45.563 [main] Loggerload - The user selects Tree from the drop down
+[INFO ] 2024-11-26 20:50:46.128 [main] Loggerload - The page title is : Tree
+[INFO ] 2024-11-26 20:50:50.639 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:50:50.639 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 20:50:51.335 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 20:50:51.335 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:52.530 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:50:56.015 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:50:56.015 [main] Loggerload - The user clicks on Overview of Trees Link
+[INFO ] 2024-11-26 20:50:56.715 [main] Loggerload - The page title is : Overview of Trees
+[INFO ] 2024-11-26 20:50:56.716 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:50:57.603 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:01.986 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:01.989 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 20:51:02.780 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 20:51:02.782 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:03.832 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:07.153 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:07.153 [main] Loggerload - The user clicks on Terminologies Link 
+[INFO ] 2024-11-26 20:51:07.530 [main] Loggerload - The page title is : Terminologies
+[INFO ] 2024-11-26 20:51:07.530 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:08.082 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:10.283 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:10.284 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 20:51:10.590 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 20:51:10.591 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:11.057 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:13.214 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:13.214 [main] Loggerload - The user clicks on Types of Trees Link 
+[INFO ] 2024-11-26 20:51:13.532 [main] Loggerload - The page title is : Types of Trees
+[INFO ] 2024-11-26 20:51:13.532 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:13.978 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:15.938 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:15.939 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 20:51:16.423 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 20:51:16.423 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:17.009 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:18.985 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:18.985 [main] Loggerload - The user clicks on Tree Traversals Link
+[INFO ] 2024-11-26 20:51:19.269 [main] Loggerload - The page title is : Tree Traversals
+[INFO ] 2024-11-26 20:51:19.269 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:19.661 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:21.675 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:21.676 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 20:51:22.016 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 20:51:22.018 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:22.510 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:24.674 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:24.675 [main] Loggerload - The user clicks Traversals on Illustration Link 
+[INFO ] 2024-11-26 20:51:25.006 [main] Loggerload - The page title is : Traversals-Illustration
+[INFO ] 2024-11-26 20:51:25.006 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:25.485 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:27.463 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:27.463 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 20:51:27.879 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 20:51:27.880 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:28.511 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:30.700 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:30.700 [main] Loggerload - The user clicks on Binary Trees Link 
+[INFO ] 2024-11-26 20:51:31.030 [main] Loggerload - The page title is : Binary Trees
+[INFO ] 2024-11-26 20:51:31.031 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:31.397 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:33.313 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:33.313 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 20:51:33.681 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 20:51:33.681 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:34.302 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:37.449 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:37.449 [main] Loggerload - The user clicks on Types of Binary Trees Link 
+[INFO ] 2024-11-26 20:51:38.193 [main] Loggerload - The page title is : Types of Binary Trees
+[INFO ] 2024-11-26 20:51:38.193 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:38.764 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:41.029 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:41.030 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 20:51:41.366 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 20:51:41.366 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:51:41.884 [main] Loggerload - Users clicks on Run Button
+[INFO ] 2024-11-26 20:51:43.866 [main] Loggerload - The is navigated to  Tree Page 
+[INFO ] 2024-11-26 20:51:43.867 [main] Loggerload - The user clicks on Implementation in Python Link
+[INFO ] 2024-11-26 20:51:44.246 [main] Loggerload - The page title is : Implementation in Python
+[INFO ] 2024-11-26 20:51:44.247 [main] Loggerload - User clicks on Try Here button
+[INFO ] 2024-11-26 20:54:45.720 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 20:54:48.237 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 20:54:49.743 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 20:54:50.862 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 20:54:56.211 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 20:55:04.735 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 20:55:11.811 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 20:55:19.009 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 20:55:25.914 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 20:55:29.645 [main] Loggerload - Title of the Page : " Practice Questions" 
+[INFO ] 2024-11-26 20:55:32.498 [main] Loggerload - Title of the Page : " NumpyNinja" 
+[INFO ] 2024-11-26 20:55:37.147 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 20:55:41.540 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 20:55:48.864 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 20:55:55.957 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 20:56:03.179 [main] Loggerload - You are viewing the Assessment Title in the Try Editor PageAssessment page.
+[INFO ] 2024-11-26 20:56:10.204 [main] Loggerload - You are viewing the Assessment page.
+[INFO ] 2024-11-26 20:56:10.887 [main] Loggerload - Title of the Page : " Practice Questions" 
