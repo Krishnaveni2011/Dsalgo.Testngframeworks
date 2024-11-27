@@ -81,7 +81,7 @@ public class QueueTest extends BaseClass {
 	}
 
 	// Implementation of Queue in Python
-	@Test(priority = 2, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	@Test(priority = 2, dataProvider = "ValidCode", dataProviderClass = DataProviderClass.class)
 	public void validImplQueueInPython(String code[]) {
 		queuepage.navigateToQueuePage();
 		queuepage.clickOnImpQueuePythonLink();
@@ -94,7 +94,7 @@ public class QueueTest extends BaseClass {
 
 	}
 
-	@Test(priority = 3, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	@Test(priority = 3, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
 	public void invalidImplQueueInPython(String code[]) {
 		queuepage.navigateToQueuePage();
 		queuepage.clickOnImpQueuePythonLink();
@@ -110,7 +110,7 @@ public class QueueTest extends BaseClass {
 	}
 
 	// Implementation using collections.deque
-	@Test(priority = 4, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	@Test(priority = 4, dataProvider = "ValidCode", dataProviderClass = DataProviderClass.class)
 	public void validImplUsingCollectionsDequePage(String code[]) {
 		queuepage.navigateBackToQueuePage();
 		queuepage.clickOnImpUsingCollectionDequeLink();
@@ -123,7 +123,7 @@ public class QueueTest extends BaseClass {
 
 	}
 
-	@Test(priority = 5, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	@Test(priority = 5, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
 	public void inValidImplUsingCollectionsDequePage(String code[]) {
 		queuepage.navigateBackToQueuePage();
 		queuepage.clickOnImpUsingCollectionDequeLink();
@@ -138,7 +138,7 @@ public class QueueTest extends BaseClass {
 
 	// Implementation using Array
 
-	@Test(priority = 6, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	@Test(priority = 6, dataProvider = "ValidCode", dataProviderClass = DataProviderClass.class)
 	public void validImplUsingArrayPage(String code[]) {
 		queuepage.navigateToQueuePage();
 		queuepage.clickOnImpUsingArray();
@@ -151,7 +151,7 @@ public class QueueTest extends BaseClass {
 
 	}
 
-	@Test(priority = 7, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	@Test(priority = 7, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
 	public void inValidImplUsingArrayPage(String code[]) {
 		queuepage.navigateBackToQueuePage();
 		queuepage.clickOnImpUsingArray();
@@ -166,7 +166,7 @@ public class QueueTest extends BaseClass {
 
 	// Queue Operations
 
-	@Test(priority = 8, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	@Test(priority = 8, dataProvider = "ValidCode", dataProviderClass = DataProviderClass.class)
 	public void validQueueOperationPage(String code[]) {
 
 		queuepage.navigateToQueuePage();
@@ -180,7 +180,7 @@ public class QueueTest extends BaseClass {
 
 	}
 
-	@Test(priority = 9, dataProvider = "TryEditorCode", dataProviderClass = DataProviderClass.class)
+	@Test(priority = 9, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
 	public void inValidQueueOperationPage(String code[]) {
 
 		queuepage.navigateBackToQueuePage();
