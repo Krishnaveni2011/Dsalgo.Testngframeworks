@@ -1,3 +1,6 @@
 /target/
 /allure-results/
 test-output/
+ExtentReports/
+/screenshots
+logs/
