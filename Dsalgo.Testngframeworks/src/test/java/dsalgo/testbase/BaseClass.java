@@ -23,31 +23,29 @@ public class BaseClass {
 	public WebDriver driver;
 	public Logger logger;
 
-	
 	@BeforeClass
+
 	// @Parameters({"browser"})
 	public void setUp() {
-
+		
 		DriverFactory.initializeBrowser(ConfigReader.getProperty("browser"));
-	    //DriverFactory.initializeBrowser(browser);
+		//DriverFactory.initializeBrowser(browser);
+
 		driver = DriverFactory.getDriver();
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
-		//driver.get(ConfigReader.getProperty("appHomeURL"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
+		// driver.get(ConfigReader.getProperty("appHomeURL"));
 		driver.manage().window().maximize();
 
 	}
 
 	@AfterClass
 	public void tearDown() {
-		//driver.manage().deleteAllCookies();
+		driver.manage().deleteAllCookies();
 		driver.quit();
 	}
 
-	
-	
-	
 	public String randomString() {
 		String generatedString = RandomStringUtils.randomAlphabetic(5);
 		return generatedString;
@@ -71,6 +69,5 @@ public class BaseClass {
 		String dateText = date.toString().replace(" ", "_").replace(":", "_");
 		return dateText;
 	}
-	
 
 }
