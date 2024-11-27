@@ -6,6 +6,7 @@ import static org.testng.Assert.assertTrue;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -21,8 +22,8 @@ public class QueueTest extends BaseClass {
 	QueuePage queuepage;
 	String title;
 
-	@BeforeMethod
-	public void setup() {
+	@BeforeClass
+	public void signIn() {
 
 		driver.get(ConfigReader.getProperty("appHomeURL"));
 		homepage = new HomePage();
@@ -37,12 +38,6 @@ public class QueueTest extends BaseClass {
 		assertEquals(register.getPageTitle(), "NumpyNinja", "Title mis match");
 	}
 
-	@AfterMethod
-	public void tearDown() {
-		homepage.clickSignOut();
-		//driver.close();
-
-	}
 
 	public void validCodeTryEditor(String code[]) {
 
@@ -90,7 +85,6 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		validCodeTryEditor(code);
-		homepage.navigateToBackPage();
 
 	}
 
@@ -104,8 +98,6 @@ public class QueueTest extends BaseClass {
 		clickTryHereButton();
 		inValidCodeTryEditor(code);
 
-		// go back to home page
-		homepage.navigateToBackPage();
 
 	}
 
@@ -119,7 +111,6 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		validCodeTryEditor(code);
-		homepage.navigateToBackPage();
 
 	}
 
@@ -132,7 +123,6 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		inValidCodeTryEditor(code);
-		homepage.navigateToBackPage();
 
 	}
 
@@ -147,7 +137,6 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		validCodeTryEditor(code);
-		homepage.navigateToBackPage();
 
 	}
 
@@ -160,7 +149,6 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		inValidCodeTryEditor(code);
-		homepage.navigateToBackPage();
 
 	}
 
@@ -176,7 +164,6 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		validCodeTryEditor(code);
-		homepage.navigateToBackPage();
 
 	}
 
@@ -190,7 +177,6 @@ public class QueueTest extends BaseClass {
 
 		clickTryHereButton();
 		inValidCodeTryEditor(code);
-		homepage.navigateToBackPage();
 
 	}
 
