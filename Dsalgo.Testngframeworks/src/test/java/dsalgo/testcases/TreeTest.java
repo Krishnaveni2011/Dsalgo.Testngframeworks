@@ -4,6 +4,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -22,7 +23,7 @@ public class TreeTest extends BaseClass {
 	QueuePage queuepage;
 	String title;
 
-	@BeforeMethod
+	@BeforeClass
 	public void setup() {
 
 		driver.get(ConfigReader.getProperty("appHomeURL"));
@@ -38,10 +39,6 @@ public class TreeTest extends BaseClass {
 
 		assertEquals(register.getPageTitle(), "NumpyNinja", "Title mis match");
 
-	}
-	@AfterMethod
-	public void tearDown() {
-		homepage.clickSignOut();
 	}
 
 	public void validCodeTryEditor(String code[]) {
@@ -77,7 +74,6 @@ public class TreeTest extends BaseClass {
 		treepage.dropDownTree();
 		title = treepage.getTreePageTitle();
 		assertEquals("Tree", title, "Title mis-match");
-
 	}
 
 	// Overview of Trees
@@ -92,9 +88,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
-
 	}
 
 	@Test(priority = 3, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -108,9 +101,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
-
 	}
 
 	// Terminologies
@@ -124,9 +114,6 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
-		
-		homepage.navigateToBackPage();
-
 
 	}
 
@@ -140,8 +127,6 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
-
-		homepage.navigateToBackPage();
 
 	}
 
@@ -157,8 +142,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
-		homepage.navigateToBackPage();
-
 	}
 
 	@Test(priority = 7, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -172,7 +155,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 
-		homepage.navigateToBackPage();
 
 	}
 
@@ -188,7 +170,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
-		homepage.navigateToBackPage();
 
 	}
 
@@ -203,7 +184,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 
-		homepage.navigateToBackPage();
 
 	}
 
@@ -219,8 +199,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
-		homepage.navigateToBackPage();
-
 	}
 
 	@Test(priority = 11, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -234,7 +212,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
 	
 	}
 
@@ -250,7 +227,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
 
 	}
 
@@ -265,7 +241,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
 
 	}
 
@@ -281,7 +256,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
 
 	}
 
@@ -296,7 +270,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
 
 	}
 
@@ -311,8 +284,6 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
-		
-		homepage.navigateToBackPage();
 
 	}
 
@@ -327,9 +298,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
-
 	}
 
 	// Binary Tree Traversals
@@ -344,9 +312,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
-
 	}
 
 	@Test(priority = 19, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -360,9 +325,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
-
 	}
 
 	// Implementation of Binary Trees
@@ -377,8 +339,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
 	}
 
 	@Test(priority = 21, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -392,8 +352,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
 	}
 
 	// Applications of Binary trees
@@ -408,8 +366,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
 	}
 
 	@Test(priority = 23, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -423,8 +379,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
 		
-		homepage.navigateToBackPage();
-
 	}
 
 	// Binary Search Trees
@@ -439,8 +393,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
-		homepage.navigateToBackPage();
-
 	}
 
 	@Test(priority = 25, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -453,8 +405,6 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
-
-		homepage.navigateToBackPage();
 
 	}
 
@@ -470,8 +420,6 @@ public class TreeTest extends BaseClass {
 		clickOnTryhereButton();
 		validCodeTryEditor(code);
 
-		homepage.navigateToBackPage();
-
 	}
 
 	@Test(priority = 27, dataProvider = "InvalidCode", dataProviderClass = DataProviderClass.class)
@@ -484,8 +432,6 @@ public class TreeTest extends BaseClass {
 
 		clickOnTryhereButton();
 		inValidCodeTryEditor(code);
-
-		homepage.navigateToBackPage();
 
 	}
 

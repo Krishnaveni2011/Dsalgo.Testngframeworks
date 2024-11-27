@@ -4,22 +4,20 @@
 
 	<listeners>
 		<listener class-name="dsalgo.listeners.DsAlgoListeners"></listener>
-		<!--<listener class-name="dsalgo.utilities.AnnotationTransformer"></listener>-->
+		<listener class-name="dsalgo.utilities.AnnotationTransformer"></listener>
 	</listeners>
 	
   <test name="Test">
   
-  <parameter name="browser" value="firefox" />
 		<classes>
-						 
+			<class name="dsalgo.testcases.RegisterTest" />	 
 			<class name="dsalgo.testcases.QueueTest" />
+			<class name="dsalgo.testcases.TreeTest" />
 
+			<!-- 
 			
-			<class name="dsalgo.testcases.RegisterTest" />
 			<class name="dsalgo.testcases.QueueTest" />
-			<class name="dsalgo.testcases.TreeTest" />
-			<class name="dsalgo.testcases.TreeTest" />
-			<class name="dsalgo.testcases.RegisterTest" />
+	
 			<class name="dsalgo.testcases.HomePageTest" />
 			<class name="dsalgo.testcases.LinkedListTest" />
 			<class name="dsalgo.testcases.ArraysTest" />
@@ -27,6 +25,7 @@
 			<class name="dsalgo.testcases.GraphTest"></class>
 			<class name="dsalgo.testcases.StackTest"></class>
 			<class name="dsalgo.testcases.LoginTest"></class>
+			 -->
 		
 		</classes>
    
