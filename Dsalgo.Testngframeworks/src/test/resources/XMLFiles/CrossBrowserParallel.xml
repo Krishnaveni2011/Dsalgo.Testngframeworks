@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite  name="Suite" thread-count="2">
+
+	<listeners>
+		<listener class-name="dsalgo.listeners.DsAlgoListeners"></listener>
+	<!-- 	<listener class-name="dsalgo.utilities.AnnotationTransformer"></listener> -->
+	</listeners>
+	
+	<test name="Testchrome">
+
+		<parameter name="browser" value="chrome" />
+		<classes>
+		
+		<class name="dsalgo.testcases.QueueTest" />
+			<class name="dsalgo.testcases.TreeTest" />
+		
+		
+		<class name="dsalgo.testcases.RegisterTest" />
+			<class name="dsalgo.testcases.HomePageTest" />
+			<class name="dsalgo.testcases.LinkedListTest" />
+			<class name="dsalgo.testcases.ArraysTest" />
+			<class name="dsalgo.testcases.DataStructureTest"></class>
+			<class name="dsalgo.testcases.GraphTest"></class>
+			<class name="dsalgo.testcases.StackTest"></class>
+			<class name="dsalgo.testcases.LoginTest"></class>
+			
+			<!--  -->
+		</classes>
+	</test> 
+
+	<test name="Testfirefox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+		<class name="dsalgo.testcases.QueueTest" />
+		<class name="dsalgo.testcases.TreeTest" />
+		
+						<class name="dsalgo.testcases.RegisterTest" />
+			
+			<class name="dsalgo.testcases.HomePageTest" />
+			<class name="dsalgo.testcases.LinkedListTest" />
+			<class name="dsalgo.testcases.ArraysTest" />
+			<class name="dsalgo.testcases.DataStructureTest"></class>
+			<class name="dsalgo.testcases.GraphTest"></class>
+			<class name="dsalgo.testcases.StackTest"></class>
+			<class name="dsalgo.testcases.LoginTest"></class>
+			
+		<!-- 	 -->
+		</classes>
+	</test> 
+<!-- 
+	<test name="Testedge">
+		<parameter name="browser" value="edge" />
+		<classes>
+		<class name="dsalgo.testcases.QueueTest" />
+			<class name="dsalgo.testcases.TreeTest" />
+		
+					<class name="dsalgo.testcases.RegisterTest" />
+		
+			<class name="dsalgo.testcases.HomePageTest" />
+			<class name="dsalgo.testcases.LinkedListTest" />
+			<class name="dsalgo.testcases.ArraysTest" />
+			<class name="dsalgo.testcases.DataStructureTest"></class>
+			<class name="dsalgo.testcases.GraphTest"></class>
+			<class name="dsalgo.testcases.StackTest"></class>
+			<class name="dsalgo.testcases.LoginTest"></class>
+			
+			 
+		</classes>
+	</test> -->
+</suite>
