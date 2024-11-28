@@ -25,11 +25,11 @@ public class BaseClass {
 
 	@BeforeClass
 
-	// @Parameters({"browser"})
-	public void setUp() {
+	@Parameters({"browser"})
+	public void setUp(String browser) {
 		
-		DriverFactory.initializeBrowser(ConfigReader.getProperty("browser"));
-		//DriverFactory.initializeBrowser(browser);
+		//DriverFactory.initializeBrowser(ConfigReader.getProperty("browser"));
+		DriverFactory.initializeBrowser(browser);
 
 		driver = DriverFactory.getDriver();
 
