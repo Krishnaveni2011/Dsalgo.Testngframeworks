@@ -12,6 +12,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import dsalgo.driverfactory.DriverFactory;
@@ -27,6 +28,8 @@ public class BaseClass {
 
 	@Parameters({"browser"})
 	public void setUp(String browser) {
+
+
 		
 		//DriverFactory.initializeBrowser(ConfigReader.getProperty("browser"));
 		DriverFactory.initializeBrowser(browser);
@@ -39,6 +42,20 @@ public class BaseClass {
 		driver.manage().window().maximize();
 
 	}
+//	@BeforeSuite
+//	public void setup() {
+//	    System.setProperty("allure.results.directory", "target/allure-results");
+//	}
+	
+//	public void basetest() {
+//	        // Set the Allure results directory as a system property
+//	        System.setProperty("allure.results.directory", "target/allure-results");
+//	    }
+//
+//	    @BeforeSuite
+//	    public void setup() {
+//	        // Additional setup logic
+//	    }
 
 	@AfterClass
 	public void tearDown() {
@@ -69,5 +86,6 @@ public class BaseClass {
 		String dateText = date.toString().replace(" ", "_").replace(":", "_");
 		return dateText;
 	}
+	
 
 }
