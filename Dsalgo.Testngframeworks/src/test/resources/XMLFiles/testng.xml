@@ -8,7 +8,7 @@
 	</listeners>
 	
   <test name="Test">
- 
+  <parameter name="browser" value="chrome" />
 		<classes>
 			<class name="dsalgo.testcases.RegisterTest" />	 
 			<class name="dsalgo.testcases.QueueTest" />
