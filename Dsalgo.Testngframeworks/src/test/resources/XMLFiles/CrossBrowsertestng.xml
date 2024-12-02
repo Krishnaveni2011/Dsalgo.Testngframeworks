@@ -39,7 +39,7 @@
 			<class name="dsalgo.testcases.LoginTest"></class>
 		</classes>
 	</test> 
-<!-- 
+
 	<test name="Testedge">
 		<parameter name="browser" value="edge" />
 		<classes>
@@ -54,5 +54,5 @@
 			<class name="dsalgo.testcases.StackTest"></class>
 			<class name="dsalgo.testcases.LoginTest"></class>
 		</classes>
-	</test>  -->
+	</test>  
 </suite>
